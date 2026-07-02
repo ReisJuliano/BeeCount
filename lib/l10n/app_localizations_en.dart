@@ -155,6 +155,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get voiceRecordingNoSpeech => 'No speech detected';
 
   @override
+  String get voiceRecordingHoldToTalk => 'Hold to talk';
+
+  @override
+  String get voiceRecordingReleaseToFinish => 'Release to finish';
+
+  @override
   String get voiceRecordingTooShort => 'Recording too short';
 
   @override
@@ -167,27 +173,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get voiceRecordingAutoHintWaiting => 'Please start speaking...';
 
   @override
-  String get voiceRecordingHoldToTalk => 'Hold to talk';
-
-  @override
-  String get voiceRecordingReleaseToFinish => 'Release to finish';
-
-  @override
   String get smartBillingVoiceTrigger => 'Voice trigger mode';
 
   @override
   String get voiceTriggerModeAuto => 'Auto-detect pause';
 
   @override
-  String get voiceTriggerModeAutoDesc =>
-      'Stops automatically after a pause; best for short entries';
+  String get voiceTriggerModeAutoDesc => 'Stops automatically after a pause; best for short entries';
 
   @override
   String get voiceTriggerModeHold => 'Hold to talk';
 
   @override
-  String get voiceTriggerModeHoldDesc =>
-      'Hold to record, release to stop; best for longer input';
+  String get voiceTriggerModeHoldDesc => 'Hold to record, release to stop; best for longer input';
 
   @override
   String get smartBillingVoiceSilenceTimeout => 'Pause to finish';

@@ -155,6 +155,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get voiceRecordingNoSpeech => '未检测到语音输入';
 
   @override
+  String get voiceRecordingHoldToTalk => '按住 说话';
+
+  @override
+  String get voiceRecordingReleaseToFinish => '松手结束录音';
+
+  @override
   String get voiceRecordingTooShort => '录音时间过短';
 
   @override
@@ -165,12 +171,6 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get voiceRecordingAutoHintWaiting => '请开始说话...';
-
-  @override
-  String get voiceRecordingHoldToTalk => '按住 说话';
-
-  @override
-  String get voiceRecordingReleaseToFinish => '松手结束录音';
 
   @override
   String get smartBillingVoiceTrigger => '语音触发方式';
@@ -7045,6 +7045,12 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get voiceRecordingNoSpeech => '未檢測到語音輸入';
 
   @override
+  String get voiceRecordingHoldToTalk => '按住 說話';
+
+  @override
+  String get voiceRecordingReleaseToFinish => '鬆手結束錄音';
+
+  @override
   String get voiceRecordingTooShort => '錄音時間過短';
 
   @override
@@ -7055,12 +7061,6 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get voiceRecordingAutoHintWaiting => '請開始說話...';
-
-  @override
-  String get voiceRecordingHoldToTalk => '按住 說話';
-
-  @override
-  String get voiceRecordingReleaseToFinish => '鬆手結束錄音';
 
   @override
   String get smartBillingVoiceTrigger => '語音觸發方式';

@@ -372,32 +372,82 @@ abstract class AppLocalizations {
   /// **'No speech detected'**
   String get voiceRecordingNoSpeech;
 
-  String get voiceRecordingTooShort;
-
-  String get voiceRecordingResultLabel;
-
-  String get voiceRecordingAutoHintSpoken;
-
-  String get voiceRecordingAutoHintWaiting;
-
+  /// No description provided for @voiceRecordingHoldToTalk.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold to talk'**
   String get voiceRecordingHoldToTalk;
 
+  /// No description provided for @voiceRecordingReleaseToFinish.
+  ///
+  /// In en, this message translates to:
+  /// **'Release to finish'**
   String get voiceRecordingReleaseToFinish;
 
+  /// No description provided for @voiceRecordingTooShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Recording too short'**
+  String get voiceRecordingTooShort;
+
+  /// No description provided for @voiceRecordingResultLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Recognition result:'**
+  String get voiceRecordingResultLabel;
+
+  /// No description provided for @voiceRecordingAutoHintSpoken.
+  ///
+  /// In en, this message translates to:
+  /// **'Pause when done to auto-recognize'**
+  String get voiceRecordingAutoHintSpoken;
+
+  /// No description provided for @voiceRecordingAutoHintWaiting.
+  ///
+  /// In en, this message translates to:
+  /// **'Please start speaking...'**
+  String get voiceRecordingAutoHintWaiting;
+
+  /// No description provided for @smartBillingVoiceTrigger.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice trigger mode'**
   String get smartBillingVoiceTrigger;
 
+  /// No description provided for @voiceTriggerModeAuto.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto-detect pause'**
   String get voiceTriggerModeAuto;
 
+  /// No description provided for @voiceTriggerModeAutoDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Stops automatically after a pause; best for short entries'**
   String get voiceTriggerModeAutoDesc;
 
+  /// No description provided for @voiceTriggerModeHold.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold to talk'**
   String get voiceTriggerModeHold;
 
+  /// No description provided for @voiceTriggerModeHoldDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold to record, release to stop; best for longer input'**
   String get voiceTriggerModeHoldDesc;
 
   /// No description provided for @smartBillingVoiceSilenceTimeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Pause to finish'**
   String get smartBillingVoiceSilenceTimeout;
 
   /// No description provided for @smartBillingVoiceSilenceTimeoutValue.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto-finish after a {seconds}s pause'**
   String smartBillingVoiceSilenceTimeoutValue(String seconds);
 
   /// No description provided for @commonPrevious.
