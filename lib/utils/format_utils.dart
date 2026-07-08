@@ -94,7 +94,7 @@ String formatBalance(double balance, String currencyCode,
       formattedMillion = formattedMillion.replaceAll(RegExp(r'\.0+$'), '');
 
       return '$sign${formattedMillion}M';
-    } else if (absBalance >= 1000) {
+    } else if (absBalance >= 10000) {
       final thousand = absBalance / 1000;
 
       // 智能决定小数位数
