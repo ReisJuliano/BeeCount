@@ -553,7 +553,7 @@ class MainApp extends ConsumerWidget {
           Locale('en'),
           Locale('zh'),
           Locale('zh', 'TW'),
-          Locale('pt', 'BR'),
+          Locale('pt'),
         ],
         locale: selectedLanguage,
         builder: (context, child) {

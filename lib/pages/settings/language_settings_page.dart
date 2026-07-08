@@ -86,10 +86,10 @@ class LanguageSettingsPage extends ConsumerWidget {
                 // Português (Brasil)
                 _LanguageOption(
                   title: 'Português (Brasil)',
-                  locale: const Locale('pt', 'BR'),
+                  locale: const Locale('pt'),
                   currentLanguage: currentLanguage,
                   onTap: () {
-                    ref.read(languageProvider.notifier).setLanguage(const Locale('pt', 'BR'));
+                    ref.read(languageProvider.notifier).setLanguage(const Locale('pt'));
                     Future.delayed(const Duration(milliseconds: 100), () {
                       updateAppWidget(ref, context);
                     });
