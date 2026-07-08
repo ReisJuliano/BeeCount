@@ -10,6 +10,7 @@ import '../../services/billing/post_processor.dart';
 import '../../services/currency/rate_math.dart';
 import '../../styles/tokens.dart';
 import '../../utils/currencies.dart';
+import '../../utils/format_utils.dart';
 import '../../utils/ui_scale_extensions.dart';
 import '../../widgets/biz/section_card.dart';
 import '../../widgets/currency/currency_picker_sheet.dart';
@@ -315,7 +316,7 @@ class _RateEditDialogState extends ConsumerState<_RateEditDialog> {
     final l10n = AppLocalizations.of(context);
     final primary = ref.watch(primaryColorProvider);
     // 实时反向参考:1 base ≈ (1/rate) quote
-    final parsed = double.tryParse(_controller.text.trim());
+    final parsed = parseAmountInput(_controller.text.trim());
     final inverseText = (parsed != null && parsed > 0)
         ? (1 / parsed).toStringAsPrecision(6)
         : '—';
@@ -335,7 +336,7 @@ class _RateEditDialogState extends ConsumerState<_RateEditDialog> {
             autofocus: true,
             keyboardType: const TextInputType.numberWithOptions(decimal: true),
             inputFormatters: [
-              FilteringTextInputFormatter.allow(RegExp(r'[0-9.]')),
+              FilteringTextInputFormatter.allow(RegExp(r'[0-9.,]')),
             ],
             decoration: InputDecoration(
               prefixText: '1 ${widget.quote} = ',
@@ -374,12 +375,13 @@ class _RateEditDialogState extends ConsumerState<_RateEditDialog> {
         TextButton(
           onPressed: () {
             final raw = _controller.text.trim();
-            final v = double.tryParse(raw);
+            final v = parseAmountInput(raw);
             if (v == null || v <= 1e-6 || v >= 1e9) {
               setState(() => _errorText = l10n.commonError);
               return;
             }
-            Navigator.pop(context, (reset: false, rate: raw));
+            // 存库统一用「.」小数分隔符,不管用户输入的是「,」还是「.」。
+            Navigator.pop(context, (reset: false, rate: v.toString()));
           },
           child: Text(
             l10n.commonSave,

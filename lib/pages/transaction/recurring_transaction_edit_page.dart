@@ -11,6 +11,7 @@ import '../../l10n/app_localizations.dart';
 import '../../services/data/recurring_transaction_service.dart';
 import '../../services/system/logger_service.dart';
 import '../../utils/category_utils.dart';
+import '../../utils/format_utils.dart';
 
 class RecurringTransactionEditPage extends ConsumerStatefulWidget {
   final RecurringTransaction? recurring;
@@ -139,7 +140,7 @@ class _RecurringTransactionEditPageState extends ConsumerState<RecurringTransact
                       if (value == null || value.isEmpty) {
                         return l10n.commonError;
                       }
-                      if (double.tryParse(value) == null) {
+                      if (parseAmountInput(value) == null) {
                         return l10n.commonError;
                       }
                       return null;
@@ -388,7 +389,7 @@ class _RecurringTransactionEditPageState extends ConsumerState<RecurringTransact
 
   bool _isFormValid() {
     // 检查金额
-    if (_amountController.text.isEmpty || double.tryParse(_amountController.text) == null) {
+    if (_amountController.text.isEmpty || parseAmountInput(_amountController.text) == null) {
       return false;
     }
 
@@ -754,7 +755,7 @@ class _RecurringTransactionEditPageState extends ConsumerState<RecurringTransact
           id: widget.recurring!.id,
           ledgerId: _selectedLedgerId!,
           type: _type,
-          amount: double.parse(_amountController.text),
+          amount: parseAmountInput(_amountController.text)!,
           categoryId: _type == 'transfer' ? null : _selectedCategory!.id,
           accountId: _selectedAccountId,
           toAccountId: _selectedToAccountId,
@@ -780,7 +781,7 @@ class _RecurringTransactionEditPageState extends ConsumerState<RecurringTransact
         await repo.addRecurringTransaction(
           ledgerId: _selectedLedgerId!,
           type: _type,
-          amount: double.parse(_amountController.text),
+          amount: parseAmountInput(_amountController.text)!,
           categoryId: _type == 'transfer' ? null : _selectedCategory!.id,
           accountId: _selectedAccountId,
           toAccountId: _selectedToAccountId,

@@ -7,6 +7,7 @@ import '../../widgets/ui/ui.dart';
 import '../../widgets/biz/biz.dart';
 import '../../styles/tokens.dart';
 import '../../l10n/app_localizations.dart';
+import '../../utils/format_utils.dart';
 import '../../utils/ui_scale_extensions.dart';
 import '../../utils/transaction_edit_utils.dart';
 import '../../utils/currencies.dart';
@@ -496,7 +497,7 @@ class _AccountDetailPageState extends ConsumerState<AccountDetailPage> {
             ),
             TextButton(
               onPressed: () {
-                final value = double.tryParse(controller.text.trim());
+                final value = parseAmountInput(controller.text.trim());
                 if (value != null) {
                   Navigator.pop(ctx, value);
                 }

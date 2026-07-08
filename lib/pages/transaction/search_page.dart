@@ -8,6 +8,7 @@ import '../../widgets/ui/ui.dart';
 import '../../styles/tokens.dart';
 import '../../utils/category_utils.dart';
 import '../../l10n/app_localizations.dart';
+import '../../utils/format_utils.dart';
 import '../../utils/transaction_edit_utils.dart';
 import '../../utils/ui_scale_extensions.dart';
 import '../../widgets/category_icon.dart';
@@ -239,7 +240,7 @@ class _SearchPageState extends ConsumerState<SearchPage> {
                           keyboardType: const TextInputType.numberWithOptions(decimal: true),
                           controller: TextEditingController(text: tempMinAmount?.toString() ?? ''),
                           onChanged: (value) {
-                            tempMinAmount = double.tryParse(value);
+                            tempMinAmount = parseAmountInput(value);
                           },
                         ),
                       ),
@@ -257,7 +258,7 @@ class _SearchPageState extends ConsumerState<SearchPage> {
                           keyboardType: const TextInputType.numberWithOptions(decimal: true),
                           controller: TextEditingController(text: tempMaxAmount?.toString() ?? ''),
                           onChanged: (value) {
-                            tempMaxAmount = double.tryParse(value);
+                            tempMaxAmount = parseAmountInput(value);
                           },
                         ),
                       ),

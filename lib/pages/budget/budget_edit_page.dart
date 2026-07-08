@@ -12,6 +12,7 @@ import '../../services/billing/post_processor.dart';
 import '../../services/data/category_service.dart';
 import '../../styles/tokens.dart';
 import '../../utils/currencies.dart';
+import '../../utils/format_utils.dart';
 import '../../utils/ui_scale_extensions.dart';
 import '../../widgets/biz/section_card.dart';
 import '../../widgets/ui/ui.dart';
@@ -198,7 +199,7 @@ class _BudgetEditPageState extends ConsumerState<BudgetEditPage> {
                         controller: _amountController,
                         keyboardType: const TextInputType.numberWithOptions(decimal: true),
                         inputFormatters: [
-                          FilteringTextInputFormatter.allow(RegExp(r'^\d+\.?\d{0,2}')),
+                          FilteringTextInputFormatter.allow(RegExp(r'^\d+[.,]?\d{0,2}')),
                         ],
                         style: TextStyle(
                           fontSize: 24,
@@ -450,7 +451,7 @@ class _BudgetEditPageState extends ConsumerState<BudgetEditPage> {
       return;
     }
 
-    final amount = double.tryParse(amountText);
+    final amount = parseAmountInput(amountText);
     if (amount == null || amount <= 0) {
       showToast(context, l10n.budgetAmountHint);
       return;

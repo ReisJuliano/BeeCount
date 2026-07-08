@@ -305,6 +305,14 @@ class _AmountEditorSheetState extends ConsumerState<AmountEditorSheet> {
     });
   }
 
+  // 显示用小数分隔符:pt-BR 用「,」,其余语言用「.」。内部 _amountStr 存储
+  // 始终用「.」(double.tryParse 要求),这里只影响按键文案和金额显示。
+  String get _decimalDisplayChar =>
+      AppLocalizations.of(context).localeName.startsWith('pt') ? ',' : '.';
+
+  String _withDisplayDecimal(String raw) =>
+      _decimalDisplayChar == '.' ? raw : raw.replaceFirst('.', _decimalDisplayChar);
+
   void _append(String s) {
     setState(() {
       if (s == '.') {
@@ -575,13 +583,13 @@ class _AmountEditorSheetState extends ConsumerState<AmountEditorSheet> {
                     if (_op != null) ...[
                       // 显示累加值
                       Text(
-                        (() {
+                        _withDisplayDecimal((() {
                           final s = _acc.abs().toStringAsFixed(2);
                           final r1 = s.contains('.')
                               ? s.replaceFirst(RegExp(r'0+$'), '')
                               : s;
                           return r1.endsWith('.') ? r1.substring(0, r1.length - 1) : r1;
-                        })(),
+                        })()),
                         style: text.titleMedium?.copyWith(
                           fontWeight: FontWeight.w500,
                           color: BeeTokens.textSecondary(context),
@@ -601,7 +609,7 @@ class _AmountEditorSheetState extends ConsumerState<AmountEditorSheet> {
                     ],
                     // 当前输入值
                     Text(
-                      _amountStr,
+                      _withDisplayDecimal(_amountStr),
                       style: text.titleLarge?.copyWith(
                         fontWeight: FontWeight.w600,
                         letterSpacing: 0.0,
@@ -624,7 +632,7 @@ class _AmountEditorSheetState extends ConsumerState<AmountEditorSheet> {
                         ),
                       ),
                       Text(
-                        (() {
+                        _withDisplayDecimal((() {
                           final cur = parsed();
                           final total = _compute(_acc, _op!, cur);
                           final s = total.abs().toStringAsFixed(2);
@@ -632,7 +640,7 @@ class _AmountEditorSheetState extends ConsumerState<AmountEditorSheet> {
                               ? s.replaceFirst(RegExp(r'0+$'), '')
                               : s;
                           return r1.endsWith('.') ? r1.substring(0, r1.length - 1) : r1;
-                        })(),
+                        })()),
                         style: text.titleMedium?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: primary,
@@ -917,7 +925,7 @@ class _AmountEditorSheetState extends ConsumerState<AmountEditorSheet> {
                   Row(children: [
                     SizedBox(
                         width: w,
-                        child: keyBtn('.', onTap: () => _append('.'))),
+                        child: keyBtn(_decimalDisplayChar, onTap: () => _append('.'))),
                     SizedBox(
                         width: w,
                         child: keyBtn('0', onTap: () => _append('0'))),

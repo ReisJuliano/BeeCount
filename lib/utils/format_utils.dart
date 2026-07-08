@@ -7,6 +7,17 @@ import 'package:flutter/material.dart';
 import 'currencies.dart';
 import '../l10n/app_localizations.dart';
 
+/// 解析用户输入的金额文本，同时接受「.」和「,」作为小数分隔符
+/// （pt-BR 等语言习惯用逗号，`double.tryParse` 只认「.」）。
+/// 只替换末尾 1-2 位小数前的逗号，避免误伤千分位逗号。
+double? parseAmountInput(String text) {
+  final normalized = text.replaceFirstMapped(
+    RegExp(r',(\d{1,2})$'),
+    (m) => '.${m[1]}',
+  );
+  return double.tryParse(normalized);
+}
+
 /// 格式化余额显示，支持多语言单位和多币种
 ///
 /// [balance] 金额
