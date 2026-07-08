@@ -81,6 +81,20 @@ class LanguageSettingsPage extends ConsumerWidget {
                     });
                   },
                 ),
+                const SizedBox(height: 8),
+
+                // Português (Brasil)
+                _LanguageOption(
+                  title: 'Português (Brasil)',
+                  locale: const Locale('pt', 'BR'),
+                  currentLanguage: currentLanguage,
+                  onTap: () {
+                    ref.read(languageProvider.notifier).setLanguage(const Locale('pt', 'BR'));
+                    Future.delayed(const Duration(milliseconds: 100), () {
+                      updateAppWidget(ref, context);
+                    });
+                  },
+                ),
               ],
             ),
           ),

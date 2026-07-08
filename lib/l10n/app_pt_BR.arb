@@ -1,0 +1,3347 @@
+{
+  "@@locale": "pt_BR",
+  "aiConsentTitle": "Antes de ativar os recursos de IA",
+  "aiConsentBody": "Os recursos de IA precisam enviar dados relacionados ao provedor de IA terceirizado que você configurar:\n\n• Para quem vai: por padrão, Zhipu GLM (open.bigmodel.cn, operado pela Zhipu); se você configurar outro serviço de IA de terceiros, os dados vão para o provedor informado.\n• O que é enviado: o conteúdo que você usa ativamente para reconhecimento/chat — imagens de recibos, gravações de voz, texto digitado, além dos nomes de categorias, nomes de contas e registros de transações relevantes necessários para concluir o reconhecimento/análise.\n• Finalidade: apenas para reconhecimento de contas, lançamentos e conversas iniciadas por você; o BeeCount em si não coleta nem armazena esses dados.\n\nOs dados são processados por esse provedor terceirizado de acordo com sua própria política de privacidade. Ao ativar, você concorda com o compartilhamento de dados acima.",
+  "aiConsentAgree": "Concordar e ativar",
+  "aboutPrivacyPolicy": "Política de Privacidade",
+  "appTitle": "BeeCount",
+  "@appTitle": {
+    "description": "The application title"
+  },
+  "tabHome": "Início",
+  "tabInsights": "Estatísticas",
+  "tabAssets": "Patrimônio",
+  "tabRecord": "Lançar",
+  "tabMine": "Perfil",
+  "commonCancel": "Cancelar",
+  "commonConfirm": "Confirmar",
+  "commonSave": "Salvar",
+  "commonDelete": "Excluir",
+  "commonAdd": "Adicionar",
+  "commonEdit": "Editar",
+  "commonMore": "Mais",
+  "commonOk": "OK",
+  "commonKnow": "Entendi",
+  "commonNo": "Não",
+  "commonEmpty": "Sem dados",
+  "commonError": "Erro",
+  "commonSuccess": "Sucesso",
+  "commonFailed": "Falhou",
+  "commonBack": "Voltar",
+  "commonNext": "Próximo",
+  "fabActionCamera": "Câmera",
+  "fabActionGallery": "Galeria",
+  "fabActionVoice": "Voz",
+  "fabActionVoiceDisabled": "Requer IA ativada e API Key",
+  "voiceRecordingTitle": "Lançamento por Voz",
+  "voiceRecordingPreparing": "Preparando...",
+  "voiceRecordingInProgress": "Gravando...",
+  "voiceRecordingProcessing": "Reconhecendo...",
+  "voiceRecordingDuration": "Duração: {duration}s",
+  "@voiceRecordingDuration": {
+    "placeholders": {
+      "duration": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceRecordingSuccess": "Lançamento por voz concluído",
+  "voiceRecordingNoLedger": "Nenhum livro encontrado",
+  "voiceRecordingNoInfo": "Nenhuma informação de lançamento reconhecida",
+  "voiceRecordingPermissionDenied": "É necessária permissão do microfone",
+  "voiceRecordingPermissionDeniedTitle": "Permissão de Microfone Necessária",
+  "voiceRecordingPermissionDeniedMessage": "O lançamento por voz requer permissão do microfone. Permita que o BeeCount acesse o microfone nas Configurações do Sistema.",
+  "voiceRecordingStartFailed": "Falha ao iniciar a gravação: {error}",
+  "@voiceRecordingStartFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceRecordingFailed": "Falha na gravação: {error}",
+  "@voiceRecordingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceRecordingRecognizeFailed": "Falha no reconhecimento: {error}",
+  "@voiceRecordingRecognizeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceRecordingNoInfoDetected": "Não foi possível extrair as informações do lançamento: {text}",
+  "@voiceRecordingNoInfoDetected": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceRecordingNoSpeech": "Nenhuma fala detectada",
+  "voiceRecordingHoldToTalk": "Segure para falar",
+  "voiceRecordingReleaseToFinish": "Solte para finalizar",
+  "voiceRecordingTooShort": "Gravação muito curta",
+  "voiceRecordingResultLabel": "Resultado do reconhecimento:",
+  "voiceRecordingAutoHintSpoken": "Faça uma pausa ao terminar para reconhecer automaticamente",
+  "voiceRecordingAutoHintWaiting": "Comece a falar...",
+  "smartBillingVoiceTrigger": "Modo de ativação por voz",
+  "voiceTriggerModeAuto": "Detectar pausa automaticamente",
+  "voiceTriggerModeAutoDesc": "Para automaticamente após uma pausa; ideal para lançamentos curtos",
+  "voiceTriggerModeHold": "Segurar para falar",
+  "voiceTriggerModeHoldDesc": "Segure para gravar, solte para parar; ideal para entradas mais longas",
+  "smartBillingVoiceSilenceTimeout": "Pausa para finalizar",
+  "smartBillingVoiceSilenceTimeoutValue": "Finaliza automaticamente após {seconds}s de pausa",
+  "@smartBillingVoiceSilenceTimeoutValue": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "commonPrevious": "Anterior",
+  "commonFinish": "Concluir",
+  "commonClose": "Fechar",
+  "commonOther": "Outro",
+  "commonYesterday": "Ontem",
+  "commonSearch": "Buscar",
+  "commonNoteHint": "Observação...",
+  "commonSettings": "Configurações",
+  "commonGoSettings": "Ir para Configurações",
+  "commonLanguage": "Idioma",
+  "commonCurrent": "Atual",
+  "commonTutorial": "Tutorial",
+  "commonConfigure": "Configurar",
+  "commonPressAgainToExit": "Toque novamente para sair",
+  "commonWeekdayMonday": "Segunda-feira",
+  "commonWeekdayTuesday": "Terça-feira",
+  "commonWeekdayWednesday": "Quarta-feira",
+  "commonWeekdayThursday": "Quinta-feira",
+  "commonWeekdayFriday": "Sexta-feira",
+  "commonWeekdaySaturday": "Sábado",
+  "commonWeekdaySunday": "Domingo",
+  "homeIncome": "Receita",
+  "homeExpense": "Despesa",
+  "homeBalance": "Saldo",
+  "homeNoRecords": "Ainda sem lançamentos",
+  "homeSelectDate": "Selecionar data",
+  "homeAppTitle": "BeeCount",
+  "homeSearch": "Buscar",
+  "homeYear": "{year}",
+  "@homeYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "homeMonth": "{month}M",
+  "@homeMonth": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNoRecordsSubtext": "Toque no botão de mais abaixo para adicionar um lançamento",
+  "homeLastMonthReportSubtitle": "Ver e compartilhar o relatório do mês passado",
+  "homeLastMonthReportView": "Ver",
+  "homeAnnualReportReminder": "Seu Relatório Anual de {year} está pronto",
+  "@homeAnnualReportReminder": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "homeAnnualReportView": "Ver",
+  "widgetTodayExpense": "Despesa de Hoje",
+  "widgetTodayIncome": "Receita de Hoje",
+  "widgetMonthExpense": "Despesa do Mês",
+  "widgetMonthIncome": "Receita do Mês",
+  "widgetMonthSuffix": "",
+  "searchTitle": "Buscar",
+  "searchHint": "Buscar observações, categorias ou valores...",
+  "searchCategoryHint": "Buscar nome da categoria...",
+  "searchMinAmount": "Valor mínimo",
+  "searchMaxAmount": "Valor máximo",
+  "searchNoInput": "Digite palavras-chave para começar a buscar",
+  "searchNoResults": "Nenhum resultado encontrado",
+  "searchBatchMode": "Operações em Lote",
+  "searchBatchModeWithCount": "Operações em Lote ({selected}/{total})",
+  "searchExitBatchMode": "Sair do Modo em Lote",
+  "searchSelectAll": "Selecionar Tudo",
+  "searchDeselectAll": "Desmarcar Tudo",
+  "searchSelectedCount": "{count} selecionado(s)",
+  "searchBatchSetNote": "Definir Observação",
+  "searchBatchChangeCategory": "Alterar Categoria",
+  "searchBatchDeleteConfirmTitle": "Confirmar Exclusão",
+  "searchBatchDeleteConfirmMessage": "Tem certeza de que deseja excluir as {count} transações selecionadas?\nEssa ação não pode ser desfeita.",
+  "searchBatchSetNoteTitle": "Definir Observação em Lote",
+  "searchBatchSetNoteMessage": "Definir a mesma observação para as {count} transações selecionadas",
+  "searchBatchSetNoteHint": "Digite o conteúdo da observação (deixe em branco para limpar)",
+  "searchBatchDeleteSuccess": "{count} transações excluídas com sucesso",
+  "searchBatchDeleteFailed": "Falha ao excluir: {error}",
+  "searchBatchSetNoteSuccess": "Observação definida com sucesso para {count} transações",
+  "searchBatchSetNoteFailed": "Falha ao definir observação: {error}",
+  "searchBatchChangeCategorySuccess": "Categoria alterada com sucesso para {count} transações",
+  "searchBatchChangeCategoryFailed": "Falha ao alterar categoria: {error}",
+  "searchResultsCount": "{count} resultado(s)",
+  "searchSummaryIncome": "Receita",
+  "searchSummaryExpense": "Despesa",
+  "searchFilterTitle": "Filtro",
+  "searchAmountFilter": "Filtro de Valor",
+  "searchDateFilter": "Filtro de Data",
+  "searchStartDate": "Data Inicial",
+  "searchEndDate": "Data Final",
+  "searchNotSet": "Não Definido",
+  "searchClearFilter": "Limpar Filtro",
+  "searchBatchCategoryTransferError": "As transações selecionadas incluem transferências e não podem ter a categoria alterada",
+  "searchBatchCategoryTypeError": "As transações selecionadas têm tipos diferentes; selecione apenas receitas ou apenas despesas",
+  "searchDateStart": "Início",
+  "searchDateEnd": "Fim",
+  "analyticsMonth": "Mês",
+  "analyticsYear": "Ano",
+  "analyticsAll": "Tudo",
+  "analyticsCategoryRanking": "Ranking de Categorias",
+  "analyticsTotalAmount": "Total",
+  "analyticsNoDataSubtext": "Deslize para os lados para trocar de período, ou toque no botão para alternar entre receita/despesa",
+  "analyticsSwipeHint": "Deslize para os lados para trocar de período",
+  "analyticsSwitchTo": "Mudar para {type}",
+  "@analyticsSwitchTo": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "analyticsTipHeader": "Dica: a cápsula no topo alterna entre Mês/Ano/Tudo",
+  "analyticsSwipeToSwitch": "Deslize para trocar",
+  "analyticsAllYears": "Todos os Anos",
+  "analyticsToday": "Hoje",
+  "splashAppName": "BeeCount",
+  "splashSlogan": "Registre Cada Centavo",
+  "splashSecurityTitle": "Segurança de Dados Open Source",
+  "splashSecurityFeature1": "• Armazenamento local dos dados, controle total da privacidade",
+  "splashSecurityFeature2": "• Código-fonte aberto e transparente, seguro e confiável",
+  "splashSecurityFeature3": "• Sincronização em nuvem opcional, dados consistentes entre dispositivos",
+  "splashInitializing": "Inicializando dados...",
+  "ledgersTitle": "Gerenciar Livros",
+  "ledgersNew": "Novo Livro",
+  "ledgersClear": "Limpar Livro",
+  "ledgersClearMessage": "Tem certeza de que deseja limpar todas as transações do livro \"{name}\"? Essa ação não pode ser desfeita.\\nO livro será mantido, apenas os dados de transações serão excluídos.",
+  "ledgerDefaultName": "Livro Padrão",
+  "ledgersEdit": "Editar Livro",
+  "ledgersDelete": "Excluir Livro",
+  "ledgersDeleteConfirm": "Excluir Livro",
+  "ledgersDeleteMessage": "Tem certeza de que deseja excluir este livro e todos os seus registros? Essa ação não pode ser desfeita.\\nSe houver um backup na nuvem, ele também será excluído.",
+  "ledgersDeleted": "Excluído",
+  "ledgersDeleteFailed": "Falha ao Excluir",
+  "ledgersClearTitle": "Limpar Livro",
+  "ledgersClearSuccess": "Livro limpo",
+  "ledgersDeleteLocal": "Excluir Apenas o Livro Local",
+  "ledgersDeleteLocalTitle": "Excluir Livro Local",
+  "ledgersDeleteLocalMessage": "Tem certeza de que deseja excluir o livro local \"{name}\"?\\nO backup na nuvem será mantido e você pode restaurá-lo a qualquer momento.",
+  "ledgersDeleteLocalSuccess": "Livro local excluído",
+  "ledgersName": "Nome",
+  "ledgersDefaultLedgerName": "Livro Padrão",
+  "ledgersCurrency": "Moeda",
+  "ledgersMonthStartDay": "Dia de início do mês",
+  "ledgersMonthStartDayHint": "As estatísticas e orçamentos usam este dia (1-28) como início de cada período mensal",
+  "ledgersMonthStartDayNatural": "Dia 1 (mês civil)",
+  "ledgersMonthStartDayValue": "Dia {day} de cada mês",
+  "@ledgersMonthStartDayValue": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgersSelectCurrency": "Selecionar Moeda",
+  "ledgersSearchCurrency": "Buscar: nome ou código",
+  "ledgersCreate": "Criar",
+  "ledgersActions": "Ações",
+  "ledgersRecords": "Registros: {count}",
+  "@ledgersRecords": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersBalance": "Saldo: {balance}",
+  "@ledgersBalance": {
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerCardDownloadCloud": "Baixar da Nuvem",
+  "ledgersLocal": "Livros Locais",
+  "ledgersRemote": "Livros na Nuvem",
+  "ledgersEmpty": "Nenhum livro",
+  "ledgersRestoreAll": "Restaurar Tudo",
+  "ledgersSwitched": "Alterado para o livro \"{name}\"",
+  "@ledgersSwitched": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersDownloadTitle": "Baixar Livro",
+  "ledgersDownloadMessage": "Confirmar download do livro \"{name}\" para o dispositivo?",
+  "@ledgersDownloadMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersDownloading": "Baixando...",
+  "ledgersDownloadSuccess": "Livro \"{name}\" baixado com sucesso",
+  "@ledgersDownloadSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersDownload": "Baixar",
+  "ledgersDeleteRemote": "Excluir Livro na Nuvem",
+  "ledgersDeleteRemoteConfirm": "Excluir Livro na Nuvem",
+  "ledgersDeleteRemoteMessage": "Confirmar exclusão do livro na nuvem \"{name}\"? Essa ação não pode ser desfeita.",
+  "@ledgersDeleteRemoteMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersDeleting": "Excluindo...",
+  "ledgersDeleteRemoteSuccess": "Livro na nuvem excluído",
+  "ledgersCannotDeleteLastOne": "Não é possível excluir o último livro",
+  "ledgersRestoreAllTitle": "Restauração em Lote",
+  "ledgersRestoreAllMessage": "Confirmar restauração de todos os livros na nuvem? Total: {count}.",
+  "@ledgersRestoreAllMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgersRestoring": "Restaurando...",
+  "ledgersRestoreComplete": "Restauração Concluída",
+  "ledgersRestoreResult": "Sucesso: {success}, Falhas: {failed}",
+  "@ledgersRestoreResult": {
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "categoryTitle": "Gerenciar Categorias",
+  "categoryNew": "Nova Categoria",
+  "categoryExpense": "Despesa",
+  "categoryIncome": "Receita",
+  "categoryEmpty": "Nenhuma categoria",
+  "categoryDefault": "Categoria Padrão",
+  "categoryReorderTip": "Toque e segure para arrastar e reordenar as categorias",
+  "categoryLoadFailed": "Falha ao carregar: {error}",
+  "@categoryLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "iconPickerTitle": "Selecionar Ícone",
+  "iconCategoryTransport": "Transporte",
+  "iconCategoryShopping": "Compras",
+  "iconCategoryEntertainment": "Entretenimento",
+  "iconCategoryLife": "Vida",
+  "iconCategoryHealth": "Saúde",
+  "iconCategoryEducation": "Educação",
+  "iconCategoryWork": "Trabalho",
+  "iconCategoryFinance": "Finanças",
+  "iconCategoryReward": "Recompensa",
+  "iconCategoryOther": "Outro",
+  "iconCategoryDining": "Alimentação",
+  "importTitle": "Importar Contas",
+  "importBillType": "Tipo de Conta",
+  "importBillTypeGeneric": "CSV Genérico",
+  "importBillTypeAlipay": "Alipay",
+  "importBillTypeWechat": "WeChat",
+  "importChooseFile": "Escolher Arquivo",
+  "importNoFileSelected": "Nenhum arquivo selecionado",
+  "importHint": "Dica: selecione um arquivo para começar a importação (CSV/TSV/XLSX)",
+  "importReading": "Lendo arquivo…",
+  "importPreparing": "Preparando…",
+  "importColumnNumber": "Coluna {number}",
+  "importConfirmMapping": "Confirmar Mapeamento",
+  "importCategoryMapping": "Mapeamento de Categorias",
+  "importNoDataParsed": "Nenhum dado processado. Volte à página anterior para verificar o conteúdo ou o separador do CSV.",
+  "importFieldDate": "Data",
+  "importFieldType": "Tipo",
+  "importFieldAmount": "Valor",
+  "importFieldCategory": "Categoria",
+  "importFieldAccount": "Conta",
+  "importFieldNote": "Observação",
+  "importPreview": "Pré-visualização dos Dados",
+  "importPreviewLimit": "Mostrando os primeiros {shown} de {total} registros",
+  "importCategoryNotSelected": "Categoria não selecionada",
+  "importCategoryMappingDescription": "Selecione as categorias locais correspondentes para cada nome de categoria:",
+  "importKeepOriginalName": "Manter nome original",
+  "importProgress": "Importando, sucesso: {ok}, falhas: {fail}",
+  "importCancelImport": "Cancelar Importação",
+  "importCompleteTitle": "Importação Concluída",
+  "importSelectCategoryFirst": "Selecione primeiro o mapeamento de categorias",
+  "importNextStep": "Próxima Etapa",
+  "importPreviousStep": "Etapa Anterior",
+  "importStartImport": "Iniciar Importação",
+  "importAutoDetect": "Detectar Automaticamente",
+  "importInProgress": "Importação em Andamento",
+  "importProgressDetail": "Importados {done} / {total} registros, sucesso {ok}, falhas {fail}",
+  "importBackgroundImport": "Importação em Segundo Plano",
+  "importCancelled": "Importação Cancelada",
+  "importCompleted": "Importação Concluída{cancelled}, sucesso {ok}, falhas {fail}",
+  "importSkippedNonTransactionTypes": "{count} registros que não são transações foram ignorados (dívidas, etc.)",
+  "importTransactionFailed": "Falha na importação, todas as alterações foram revertidas: {error}",
+  "importFileOpenError": "Não foi possível abrir o seletor de arquivos: {error}",
+  "@importFileOpenError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mineTitle": "Perfil",
+  "mineReminder": "Configurações de Lembrete",
+  "mineImport": "Importar Dados",
+  "mineExport": "Exportar Dados",
+  "mineCloud": "Serviço em Nuvem",
+  "mineUpdate": "Verificar Atualizações",
+  "mineLanguageSettings": "Idioma",
+  "languageTitle": "Configurações de Idioma",
+  "languageChinese": "中文",
+  "languageEnglish": "English",
+  "languageSystemDefault": "Seguir o Sistema",
+  "deleteConfirmTitle": "Confirmar Exclusão",
+  "deleteConfirmMessage": "Tem certeza de que deseja excluir este registro?",
+  "mineSlogan": "BeeCount, Cada Centavo Conta",
+  "mineDisplayNameEditTitle": "Definir apelido",
+  "mineDisplayNameHint": "Digite um apelido",
+  "mineDisplayNameSaved": "Apelido atualizado",
+  "mineGreetingMorning": "Bom dia",
+  "mineGreetingNoon": "Bom meio-dia",
+  "mineGreetingAfternoon": "Boa tarde",
+  "mineGreetingEvening": "Boa noite",
+  "mineGreetingNight": "Boa madrugada",
+  "mineGreetingNamed": "{greeting}, {name}",
+  "@mineGreetingNamed": {
+    "placeholders": {
+      "greeting": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "mineProfileEditTitle": "Editar perfil",
+  "headerSkinTitle": "Tema Visual",
+  "headerSkinSubtitle": "Acompanha a cor do seu tema, sobreposto ao cabeçalho",
+  "headerSkinNone": "Sólido",
+  "headerSkinAurora": "Aurora",
+  "headerSkinMountains": "Montanhas",
+  "headerSkinBokeh": "Bokeh",
+  "headerSkinWaves": "Ondas",
+  "headerSkinSunset": "Pôr do Sol",
+  "headerSkinClouds": "Nuvens",
+  "headerSkinExample": "Exemplo",
+  "headerSkinHoneycomb": "Colmeia",
+  "headerSkinStarry": "Estrelado",
+  "headerSkinStripes": "Listras",
+  "headerSkinSkyline": "Horizonte",
+  "headerSkinSakura": "Sakura",
+  "headerSkinMeteor": "Meteoro",
+  "headerSkinMemphis": "Memphis",
+  "mineAvatarTitle": "Configurações de Avatar",
+  "mineAvatarFromGallery": "Escolher da Galeria",
+  "mineAvatarFromCamera": "Tirar Foto",
+  "mineAvatarDelete": "Excluir Avatar",
+  "annualReportTitle": "Relatório Anual",
+  "annualReportSubtitle": "Reveja sua jornada financeira de {year}",
+  "@annualReportSubtitle": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "annualReportEntrySubtitle": "Crie seu relatório anual personalizado para compartilhar",
+  "annualReportNoData": "Sem dados para {year}",
+  "@annualReportNoData": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "annualReportPage1Title": "Visão Geral Anual",
+  "annualReportPage1Subtitle": "Sua jornada de lançamentos em {year}",
+  "@annualReportPage1Subtitle": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "annualReportTotalDays": "Dias Registrados",
+  "annualReportTotalRecords": "Total de Registros",
+  "annualReportTotalIncome": "Receita Total",
+  "annualReportTotalExpense": "Despesa Total",
+  "annualReportNetSavings": "Economia Líquida",
+  "annualReportPage2Title": "Análise de Despesas",
+  "annualReportPage2Subtitle": "Para onde foi o seu dinheiro",
+  "annualReportPage3Title": "Tendências Mensais",
+  "annualReportPage3Subtitle": "12 meses de receitas e despesas",
+  "annualReportHighestMonth": "Mês com Maior Gasto",
+  "annualReportLowestMonth": "Mês com Menor Gasto",
+  "annualReportPage4Title": "Momentos Especiais",
+  "annualReportPage4Subtitle": "Transações memoráveis",
+  "annualReportLargestExpense": "Maior Despesa",
+  "annualReportLargestIncome": "Maior Receita",
+  "annualReportFirstRecord": "Primeiro Registro",
+  "annualReportPage5Title": "Conquistas",
+  "annualReportPage5Subtitle": "Seus emblemas de lançamentos",
+  "annualReportAchievementConsistent": "Consistente",
+  "annualReportAchievementConsistentDesc": "Registrou por mais de {days} dias seguidos",
+  "@annualReportAchievementConsistentDesc": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "annualReportAchievementSaver": "Poupador",
+  "annualReportAchievementSaverDesc": "Economia líquida positiva neste ano",
+  "annualReportAchievementDetail": "Detalhista",
+  "annualReportAchievementDetailDesc": "Mais de {count} registros lançados",
+  "@annualReportAchievementDetailDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "annualReportShareButton": "Gerar Pôster para Compartilhar",
+  "annualReportGenerating": "Gerando relatório anual...",
+  "annualReportSaveSuccess": "Pôster do relatório anual salvo",
+  "mineShareApp": "Compartilhar App",
+  "mineShareWithFriends": "Compartilhe o BeeCount com amigos",
+  "mineCopyPromoText": "Copiar Texto Promocional",
+  "mineCopyPromoSubtitle": "Copie e compartilhe com amigos",
+  "mineShareGenerating": "Gerando pôster para compartilhar...",
+  "sharePosterAppName": "BeeCount",
+  "sharePosterSlogan": "Finanças Inteligentes, Vida Mais Leve",
+  "sharePosterFeature1": "Segurança de Dados·Você no Controle",
+  "sharePosterFeature2": "Open Source·Auditável",
+  "sharePosterFeature3": "IA Inteligente·Foto e Voz",
+  "sharePosterFeature4": "Lançamento por Foto·Reconhecimento Automático",
+  "sharePosterFeature5": "Múltiplos livros·Modo escuro",
+  "sharePosterFeature6": "Nuvem self-hosted·Grátis para sempre",
+  "sharePosterScanText": "Escaneie para acessar o projeto open source",
+  "appPromoTagOpenSource": "Open Source",
+  "appPromoTagFree": "Grátis",
+  "appPromoFooterText": "Registre cada centavo, acompanhe cada momento",
+  "userProfileJourneyYears": "{years} anos registrando gastos",
+  "@userProfileJourneyYears": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "userProfileJourneyOneYear": "Um ano de registros",
+  "userProfileJourneyHalfYear": "Seis meses firme",
+  "userProfileJourneyThreeMonths": "Três meses de jornada",
+  "userProfileJourneyOneMonth": "Um mês de marco",
+  "userProfileJourneyOneWeek": "Primeira semana concluída",
+  "userProfileJourneyStart": "Começando a jornada",
+  "userProfileDailyAverage": "Média diária",
+  "sharePosterSave": "Salvar na galeria",
+  "sharePosterShare": "Compartilhar",
+  "sharePosterHideIncome": "Ocultar receitas",
+  "sharePosterShowIncome": "Mostrar receitas",
+  "sharePosterSaveSuccess": "Salvo na galeria",
+  "shareGuidanceCopyText": "Controle meus gastos com o BeeCount - open source, grátis e sem anúncios! 🐝 Baixe: https://github.com/TNT-Likely/BeeCount",
+  "shareGuidanceCopied": "Texto copiado",
+  "sharePosterSaveFailed": "Falha ao salvar",
+  "sharePosterPermissionDenied": "Permissão da galeria negada, ative nas configurações",
+  "sharePosterGenerating": "Gerando...",
+  "sharePosterGenerateFailed": "Falha ao gerar o pôster, tente novamente",
+  "sharePosterNoLedger": "Selecione um livro primeiro",
+  "sharePosterYearTitle": "Meu relatório anual de gastos",
+  "sharePosterYearSubtitle": "Registre a vida com dados, planeje o futuro com razão",
+  "sharePosterMonthTitle": "Relatório mensal de gastos",
+  "sharePosterMonthSubtitle": "Orce com sabedoria, gaste com racionalidade",
+  "sharePosterLedgerTitle": "Relatório estatístico do livro",
+  "sharePosterRecordDays": "Dias registrados",
+  "sharePosterRecordCount": "Nº de registros",
+  "sharePosterTotalExpense": "Despesa total",
+  "sharePosterTotalIncome": "Receita total",
+  "sharePosterYearBalance": "Saldo anual",
+  "sharePosterYearDeficit": "Déficit anual",
+  "sharePosterMonthBalance": "Saldo mensal",
+  "sharePosterBalance": "Saldo total",
+  "sharePosterAvgMonthlyExpense": "Despesa média mensal",
+  "sharePosterAvgMonthlyIncome": "Receita média mensal",
+  "sharePosterAvgDailyExpense": "Despesa média diária",
+  "sharePosterMaxExpenseMonth": "Mês de maior despesa",
+  "sharePosterTopExpense": "Top 3 despesas",
+  "sharePosterCompareLastMonth": "vs. mês anterior",
+  "sharePosterIncreaseRate": "Aumento",
+  "sharePosterDecreaseRate": "Redução",
+  "sharePosterSavedMoneyTitle": "Parabéns! Você economizou este mês",
+  "sharePosterLedgerName": "Nome do livro",
+  "sharePosterUnitDay": "dias",
+  "sharePosterUnitCount": "",
+  "sharePosterUnitYuan": "",
+  "userProfilePosterStartDate": "Registrando gastos desde {date}",
+  "@userProfilePosterStartDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "userProfilePosterRecordDays": "Dias",
+  "userProfilePosterDaysUnit": "dias",
+  "userProfilePosterRecordCount": "Registros",
+  "userProfilePosterCountUnit": "",
+  "userProfilePosterLedgerCount": "Livros",
+  "userProfilePosterLedgerUnit": "",
+  "mineDaysCount": "Dias",
+  "mineTotalRecords": "Registros",
+  "mineCurrentBalance": "Saldo",
+  "mineCloudService": "Serviço em nuvem",
+  "mineCloudServiceLoading": "Carregando...",
+  "mineCloudServiceOffline": "Modo padrão (offline)",
+  "mineCloudServiceCustom": "Supabase personalizado",
+  "mineCloudServiceWebDAV": "Serviço de nuvem personalizado (WebDAV)",
+  "mineSyncTitle": "Sincronização",
+  "mineSyncNotLoggedIn": "Não conectado",
+  "mineSyncNotConfigured": "Nuvem não configurada",
+  "mineSyncNoRemote": "Sem dados na nuvem",
+  "mineSyncInSync": "Sincronizado (local {count} registros)",
+  "mineSyncInSyncSimple": "Sincronizado",
+  "mineSyncLocalNewer": "Local atualizado ({count} registros, envio recomendado)",
+  "mineSyncLocalNewerSimple": "Local atualizado",
+  "mineSyncCloudNewer": "Nuvem atualizada (baixe para sincronizar)",
+  "mineSyncCloudNewerSimple": "Nuvem atualizada",
+  "mineSyncDifferent": "Local e nuvem diferem, baixe para comparar",
+  "mineSyncError": "Falha ao obter status",
+  "mineSyncDetailTitle": "Detalhes do status de sincronização",
+  "mineSyncLocalRecords": "Registros locais: {count}",
+  "mineSyncCloudRecords": "Registros na nuvem: {count}",
+  "mineSyncCloudLatest": "Horário do último registro na nuvem: {time}",
+  "mineSyncLocalFingerprint": "Fingerprint local: {fingerprint}",
+  "mineSyncCloudFingerprint": "Fingerprint da nuvem: {fingerprint}",
+  "mineSyncMessage": "Mensagem: {message}",
+  "mineUploadTitle": "Enviar",
+  "mineUploadNeedLogin": "É preciso fazer login",
+  "mineUploadNeedCloudService": "Disponível apenas no modo de serviço em nuvem",
+  "mineUploadInProgress": "Enviando...",
+  "mineUploadRefreshing": "Atualizando...",
+  "mineUploadSynced": "Sincronizado",
+  "mineUploadSuccess": "Enviado",
+  "mineUploadSuccessMessage": "Livro atual sincronizado com a nuvem",
+  "mineDownloadTitle": "Baixar e sincronizar",
+  "mineDownloadNeedCloudService": "Disponível apenas no modo de serviço em nuvem",
+  "mineDownloadComplete": "Sincronização concluída",
+  "mineDownloadResult": "Importados: {inserted} registros",
+  "mineLoginTitle": "Entrar",
+  "mineLoginSubtitle": "Necessário apenas para sincronização",
+  "cloudReloginTitle": "Entrar novamente",
+  "cloudReloginSuccess": "Login refeito com sucesso",
+  "cloudReloginFailed": "Falha ao entrar novamente",
+  "mineLoggedInEmail": "Conectado",
+  "mineLogoutSubtitle": "Toque para sair",
+  "mineLogoutConfirmTitle": "Sair",
+  "mineLogoutConfirmMessage": "Tem certeza que deseja sair?\nVocê não poderá usar a sincronização em nuvem depois de sair.",
+  "mineLogoutButton": "Sair",
+  "mineAutoSyncTitle": "Sincronizar livro automaticamente",
+  "mineAutoSyncSubtitle": "Enviar automaticamente para a nuvem após registrar",
+  "mineAutoSyncNeedLogin": "É preciso fazer login para ativar",
+  "mineImportProgressTitle": "Importando em segundo plano...",
+  "mineImportProgressSubtitle": "Progresso: {done}/{total}, Sucesso {ok}, Falhas {fail}",
+  "mineImportCompleteTitle": "Importação concluída",
+  "mineCategoryManagement": "Gerenciar categorias",
+  "mineCategoryManagementSubtitle": "Editar categorias personalizadas",
+  "mineCategoryMigration": "Migração de categorias",
+  "mineCategoryMigrationSubtitle": "Migrar dados de uma categoria para outra",
+  "mineRecurringTransactions": "Lançamentos recorrentes",
+  "mineRecurringTransactionsSubtitle": "Gerenciar lançamentos recorrentes",
+  "mineReminderSettings": "Configurações de lembrete",
+  "mineReminderSettingsSubtitle": "Definir lembretes diários de registro",
+  "minePersonalize": "Personalização",
+  "mineDisplayScale": "Escala de exibição",
+  "mineDisplayScaleSubtitle": "Ajustar o tamanho do texto e dos elementos da interface",
+  "mineCheckUpdate": "Verificar atualização",
+  "mineCheckUpdateSubtitle": "Verificando a versão mais recente",
+  "mineUpdateDownload": "Baixar atualização",
+  "mineFeedback": "Feedback",
+  "mineFeedbackSubtitle": "Relatar problemas ou sugestões",
+  "mineHelp": "Ajuda",
+  "helpCenterOpenInBrowser": "Abrir no navegador",
+  "helpCenterLoadFailed": "Falha ao carregar. Verifique sua conexão.",
+  "helpCenterRetry": "Tentar novamente",
+  "mineHelpSubtitle": "Ver documentação e perguntas frequentes",
+  "mineSupportAuthor": "Dar uma estrela ao projeto ⭐️",
+  "mineSupportAuthorSubtitle": "Open source, {count} estrelas",
+  "@mineSupportAuthorSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "githubStarGuideTitle": "Como dar estrela no projeto",
+  "githubStarGuideContent": "Depois de tocar no botão abaixo para abrir o GitHub, toque na área marcada na imagem para dar a estrela",
+  "githubStarGuideButton": "Ir para o GitHub",
+  "categoryEditTitle": "Editar categoria",
+  "categoryNewTitle": "Nova categoria",
+  "categoryDetailTooltip": "Detalhes da categoria",
+  "categoryMigrationTooltip": "Migração de categoria",
+  "categoryMigrationTitle": "Migração de categoria",
+  "categoryMigrationDescription": "Instruções de migração de categoria",
+  "categoryMigrationDescriptionContent": "• Migra todos os registros de transações de uma categoria para outra\n• Após a migração, todos os dados de transações da categoria de origem serão transferidos para a categoria de destino\n• Esta operação não pode ser desfeita, escolha com cuidado",
+  "categoryMigrationTypeLabel": "Selecionar tipo",
+  "categoryMigrationFromLabel": "Categoria de origem",
+  "categoryMigrationFromHint": "Selecione a categoria de origem",
+  "categoryMigrationToLabel": "Categoria de destino",
+  "categoryMigrationToHint": "Selecione a categoria de destino",
+  "categoryMigrationToHintFirst": "Selecione primeiro a categoria de origem",
+  "categoryMigrationStartButton": "Iniciar migração",
+  "categoryMigrationCannotTitle": "Não é possível migrar",
+  "categoryMigrationCannotMessage": "As categorias selecionadas não podem ser migradas, verifique o status delas.",
+  "categoryExpenseType": "Categoria de despesa",
+  "categoryIncomeType": "Categoria de receita",
+  "categoryDefaultTitle": "Categoria padrão",
+  "categoryNameLabel": "Nome da categoria",
+  "categoryNameHint": "Digite o nome da categoria",
+  "categoryNameRequired": "Informe o nome da categoria",
+  "categoryNameTooLong": "O nome da categoria não pode ter mais de 4 caracteres",
+  "categoryNameDuplicate": "Esse nome de categoria já existe",
+  "categoryIconLabel": "Ícone da categoria",
+  "categoryCustomIconTitle": "Ícone personalizado",
+  "categoryCustomIconTapToSelect": "Toque para selecionar uma imagem",
+  "categoryCustomIconTapToChange": "Toque para trocar a imagem",
+  "categoryCustomIconError": "Erro ao selecionar a imagem",
+  "categoryCustomIconRequired": "Selecione uma imagem de ícone personalizado",
+  "categoryCustomIconCrop": "Recortar ícone",
+  "categoryDangerousOperations": "Operações perigosas",
+  "categoryDeleteTitle": "Excluir categoria",
+  "categoryDeleteSubtitle": "Não pode ser recuperada após excluir",
+  "categorySaveError": "Falha ao salvar",
+  "categoryUpdated": "Categoria \"{name}\" atualizada",
+  "categoryCreated": "Categoria \"{name}\" criada",
+  "categoryCannotDelete": "Não é possível excluir",
+  "categoryCannotDeleteMessage": "Essa categoria tem {count} registros de transações. Trate-os primeiro.",
+  "categoryShare": "Compartilhar categorias",
+  "categoryImport": "Importar categorias",
+  "categoryClearUnused": "Limpar categorias não usadas",
+  "categoryClearUnusedTitle": "Limpar categorias não usadas",
+  "categoryClearUnusedMessage": "Tem certeza que deseja excluir {count} categorias não usadas? Esta ação não pode ser desfeita.",
+  "categoryClearUnusedListTitle": "Categorias a serem excluídas:",
+  "categoryClearUnusedEmpty": "Nenhuma categoria não usada",
+  "categoryClearUnusedSuccess": "{count} categorias excluídas",
+  "categoryClearUnusedFailed": "Falha ao limpar",
+  "categoryShareScopeTitle": "Selecionar escopo",
+  "categoryShareScopeExpense": "Apenas categorias de despesa",
+  "categoryShareScopeIncome": "Apenas categorias de receita",
+  "categoryShareScopeAll": "Todas as categorias",
+  "categoryShareSuccess": "Salvo em {path}",
+  "categoryShareSubject": "Configuração de categorias do BeeCount",
+  "categoryShareFailed": "Falha ao compartilhar",
+  "categoryImportInvalidFile": "Selecione um arquivo de pacote de categorias (.zip)",
+  "categoryImportModeTitle": "Selecionar modo de importação",
+  "categoryImportModeMerge": "Mesclar",
+  "categoryImportModeMergeDesc": "Manter as existentes, adicionar as novas",
+  "categoryImportModeOverwrite": "Substituir",
+  "categoryImportModeOverwriteDesc": "Limpar as não usadas e depois importar",
+  "categoryImportSuccess": "Importação concluída",
+  "categoryImportSuccessDetail": "{imported} categorias importadas, {skipped} ignoradas, {icons} ícones importados",
+  "@categoryImportSuccessDetail": {
+    "placeholders": {
+      "imported": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      },
+      "icons": {
+        "type": "int"
+      }
+    }
+  },
+  "categoryImportFailed": "Falha na importação",
+  "categoryDeleteConfirmTitle": "Excluir categoria",
+  "categoryDeleteConfirmMessage": "Tem certeza que deseja excluir a categoria \"{name}\"? Esta ação não pode ser desfeita.",
+  "categoryDeleteError": "Falha ao excluir",
+  "categoryDeleted": "Categoria \"{name}\" excluída",
+  "categorySubCategoryTitle": "Subcategoria",
+  "categorySubCategoryDescriptionEnabled": "Esta categoria pertence a uma categoria pai",
+  "categorySubCategoryDescriptionDisabled": "Esta é uma categoria de nível superior independente",
+  "categoryParentCategoryTitle": "Categoria pai",
+  "categoryParentCategoryHint": "Selecione a categoria pai",
+  "categorySelectParentTitle": "Selecionar categoria pai",
+  "categorySubCategoryCreated": "Subcategoria adicionada: {name}",
+  "categoryParentRequired": "Selecione a categoria pai",
+  "categoryParentRequiredTitle": "Erro",
+  "categoryExpenseList": "Alimentação-Transporte-Compras-Entretenimento-Casa-Família-Comunicação-Contas-Moradia-Saúde-Educação-Pets-Esportes-Digital-Viagem-Bebidas e Fumo-Bebê-Beleza-Reparo-Social-Estudo-Carro-Táxi-Metrô-Delivery-Imóveis-Estacionamento-Doação-Presentear-Impostos-Bebida-Roupas-Petiscos-Enviar Presente em Dinheiro-Fruta-Jogo-Livro-Namorado(a)-Decoração-Itens do Dia a Dia-Loteria-Ações-Previdência-Frete-Trabalho",
+  "categoryIncomeList": "Salário-Investimento-Presente em Dinheiro Recebido-Bônus-Reembolso-Bico-Presente Recebido-Juros-Estorno-Renda de Investimento-Usados-Benefício Social-Restituição de Imposto-FGTS",
+  "categoryExpenseDining": "Alimentação-Café da Manhã-Almoço-Jantar-Delivery iFood-Delivery Rappi-Delivery Uber Eats-Restaurante-Comida",
+  "categoryExpenseSnacks": "Petiscos-Biscoitos-Salgadinhos-Doces-Chocolate-Castanhas",
+  "categoryExpenseFruit": "Fruta-Maçã-Banana-Laranja-Uva-Melancia-Outras Frutas",
+  "categoryExpenseBeverage": "Bebida-Chá com Leite-Café-Suco-Refrigerante-Água Mineral",
+  "categoryExpensePastry": "Confeitaria-Bolo-Pão-Sobremesa-Assados",
+  "categoryExpenseCooking": "Ingredientes-Vegetais-Carne-Frutos do Mar-Tempero-Cereais e Óleo",
+  "categoryExpenseShopping": "Compras-Roupas-Sapatos e Chapéus-Bolsas-Acessórios-Itens Essenciais",
+  "categoryExpensePets": "Pets-Ração-Produtos para Pets-Veterinário-Banho e Tosa",
+  "categoryExpenseTransport": "Transporte-Metrô-Ônibus-Táxi-Aplicativo de Transporte-Estacionamento-Combustível",
+  "categoryExpenseCar": "Carro-Manutenção-Reparo-Seguro do Carro-Lavagem-Multa de Trânsito",
+  "categoryExpenseClothing": "Vestuário-Blusa-Calça-Vestido-Sapato-Acessórios de Vestuário",
+  "categoryExpenseDailyGoods": "Itens do Dia a Dia-Higiene Pessoal-Papel Higiênico-Produtos de Limpeza-Utensílios de Cozinha",
+  "categoryExpenseEducation": "Educação-Mensalidade-Curso-Livros-Papelaria-Material de Escritório",
+  "categoryExpenseInvestLoss": "Perda com Investimento-Perda em Ações-Perda em Fundos-Outras Perdas com Investimento",
+  "categoryExpenseEntertainment": "Entretenimento-Cinema-Karaokê-Parque de Diversões-Bar-Outro Entretenimento",
+  "categoryExpenseGame": "Jogo-Recarga de Jogo-Equipamento de Jogo-Assinatura de Jogo",
+  "categoryExpenseHealthProducts": "Produtos de Saúde-Vitaminas-Alimentos Saudáveis-Suplementos Nutricionais",
+  "categoryExpenseSubscription": "Assinatura-Streaming de Vídeo-Streaming de Música-Armazenamento em Nuvem-Outra Assinatura",
+  "categoryExpenseSports": "Esportes-Academia-Equipamento Esportivo-Aula de Esporte-Atividade ao Ar Livre",
+  "categoryExpenseHousing": "Moradia-Aluguel-Condomínio-Financiamento-Reforma",
+  "categoryExpenseHome": "Casa-Móveis-Eletrodomésticos-Decoração-Roupa de Cama",
+  "categoryExpenseBeauty": "Beleza-Cuidados com a Pele-Cosméticos-Salão de Beleza-Cuidado com Unhas",
+  "categoryIncomeSalary": "Salário-Salário Base-Bônus por Desempenho-13º Salário-Hora Extra",
+  "categoryIncomeInvestment": "Investimento-Rendimento de Fundos-Dividendos-Gestão Patrimonial-Outra Gestão Patrimonial",
+  "categoryIncomeRedPacket": "Presente em Dinheiro-Presente de Feriado-Presente de Aniversário-Retribuição",
+  "categoryIncomeBonus": "Bônus-Bônus Anual-Bônus Trimestral-Bônus de Projeto-Outro Bônus",
+  "categoryIncomeReimbursement": "Reembolso-Reembolso de Viagem-Reembolso de Refeição-Outro Reembolso",
+  "categoryIncomePartTime": "Bico-Renda de Bico-Renda Extra",
+  "categoryIncomeGift": "Presente-Presente de Casamento-Presente de Aniversário-Outro Presente",
+  "categoryIncomeInterest": "Juros-Juros Bancários-Outros Juros",
+  "categoryIncomeRefund": "Estorno-Estorno de Compra-Estorno de Serviço-Outro Estorno",
+  "categoryIncomeInvestIncome": "Renda de Investimento-Rendimento em Ações-Investimento em Fundos-Outra Renda de Investimento",
+  "categoryIncomeSecondHand": "Usados-Itens Parados-Produtos Usados",
+  "categoryIncomeSocialBenefit": "Benefício Social-Seguro Desemprego-Auxílio Maternidade-Outro Auxílio",
+  "categoryIncomeTaxRefund": "Restituição de Imposto-Restituição de IR-Outra Restituição",
+  "categoryIncomeProvidentFund": "FGTS-Saque do FGTS-Rendimento do FGTS",
+  "personalizeTitle": "Cor do tema",
+  "personalizeSubtitle": "Escolha ou personalize a cor de destaque do app",
+  "personalizeCustomColor": "Escolher cor personalizada",
+  "personalizeCustomTitle": "Personalizado",
+  "personalizeHue": "Matiz ({value}°)",
+  "personalizeSaturation": "Saturação ({value}%)",
+  "personalizeBrightness": "Brilho ({value}%)",
+  "personalizeSelectColor": "Selecionar esta cor",
+  "appearanceThemeMode": "Aparência",
+  "appearanceThemeModeSystem": "Seguir o sistema",
+  "appearanceThemeModeLight": "Modo claro",
+  "appearanceThemeModeDark": "Modo escuro",
+  "appearanceDarkModePattern": "Padrão do cabeçalho no modo escuro",
+  "appearancePatternNone": "Nenhum",
+  "appearancePatternIcons": "Ícones em mosaico",
+  "appearancePatternParticles": "Partículas",
+  "appearancePatternHoneycomb": "Colmeia",
+  "appearanceAmountFormat": "Formato de exibição do saldo",
+  "appearanceAmountFormatFull": "Valor completo",
+  "appearanceAmountFormatFullDesc": "Mostrar o valor completo, ex.: 123.456,78",
+  "appearanceAmountFormatCompact": "Compacto",
+  "appearanceAmountFormatCompactDesc": "Abrevia valores altos, ex.: 12,3 mil (afeta apenas o saldo da conta)",
+  "appearanceShowTransactionTime": "Mostrar horário da transação",
+  "appearanceShowTransactionTimeDesc": "Exibir horário na lista de transações e permitir selecionar o horário ao editar",
+  "appearanceNoteDisplay": "Exibição da observação",
+  "appearanceNoteDisplayCategory": "Categoria primeiro",
+  "appearanceNoteDisplayCategoryDesc": "Mostra a categoria, com a observação entre parênteses",
+  "appearanceNoteDisplayNote": "Observação primeiro",
+  "appearanceNoteDisplayNoteDesc": "Mostra a observação quando houver, senão a categoria",
+  "appearanceColorScheme": "Esquema de cores de receita/despesa",
+  "appearanceColorSchemeOn": "Vermelho para receita · Verde para despesa",
+  "appearanceColorSchemeOff": "Vermelho para despesa · Verde para receita",
+  "appearanceColorSchemeOnDesc": "Vermelho representa receita, verde representa despesa",
+  "appearanceColorSchemeOffDesc": "Vermelho representa despesa, verde representa receita",
+  "fontSettingsCurrentScale": "Escala atual: x{scale}",
+  "fontSettingsPreview": "Pré-visualização ao vivo",
+  "fontSettingsPreviewText": "Gastei 23,50 no almoço hoje, vou registrar;\nRegistrei 45 dias este mês, 320 lançamentos;\nPersistência é vitória!",
+  "fontSettingsCurrentLevel": "Nível atual: {level} (escala x{scale})",
+  "fontSettingsQuickLevel": "Níveis rápidos",
+  "fontSettingsCustomAdjust": "Ajuste personalizado",
+  "fontSettingsDescription": "Observação: esta configuração garante exibição consistente em 1.0x em todos os dispositivos, com as diferenças entre aparelhos compensadas automaticamente; ajuste os valores para uma escala personalizada sobre essa base consistente.",
+  "fontSettingsExtraSmall": "Extra pequeno",
+  "fontSettingsVerySmall": "Muito pequeno",
+  "fontSettingsSmall": "Pequeno",
+  "fontSettingsStandard": "Padrão",
+  "fontSettingsLarge": "Grande",
+  "fontSettingsBig": "Maior",
+  "fontSettingsVeryBig": "Muito grande",
+  "fontSettingsExtraBig": "Extra grande",
+  "fontSettingsMoreStyles": "Mais estilos",
+  "fontSettingsPageTitle": "Título da página",
+  "fontSettingsBlockTitle": "Título do bloco",
+  "fontSettingsBodyExample": "Texto do corpo",
+  "fontSettingsLabelExample": "Texto do rótulo",
+  "fontSettingsStrongNumber": "Número em destaque",
+  "fontSettingsListTitle": "Título do item da lista",
+  "fontSettingsListSubtitle": "Texto auxiliar",
+  "fontSettingsScreenInfo": "Informações de adaptação de tela",
+  "fontSettingsScreenDensity": "Densidade da tela",
+  "fontSettingsScreenWidth": "Largura da tela",
+  "fontSettingsDeviceScale": "Escala do dispositivo",
+  "fontSettingsUserScale": "Escala do usuário",
+  "fontSettingsFinalScale": "Escala final",
+  "fontSettingsBaseDevice": "Dispositivo base",
+  "fontSettingsRecommendedScale": "Escala recomendada",
+  "fontSettingsYes": "Sim",
+  "fontSettingsNo": "Não",
+  "fontSettingsScaleExample": "Esta caixa e o espaçamento se ajustam automaticamente conforme o dispositivo",
+  "fontSettingsPreciseAdjust": "Ajuste preciso",
+  "fontSettingsResetTo1x": "Redefinir para 1.0x",
+  "fontSettingsAdaptBase": "Adaptar à base",
+  "reminderTitle": "Lembrete de registro",
+  "reminderSubtitle": "Definir o horário do lembrete diário de registro",
+  "reminderDailyTitle": "Lembrete diário de registro",
+  "reminderDailySubtitle": "Quando ativado, você será lembrado de registrar no horário especificado",
+  "reminderTimeTitle": "Horário do lembrete",
+  "commonSelectTime": "Selecionar horário",
+  "reminderTestNotification": "Enviar notificação de teste",
+  "reminderTestSent": "Notificação de teste enviada",
+  "reminderTestTitle": "Notificação de teste",
+  "reminderTestBody": "Esta é uma notificação de teste, toque para ver o efeito",
+  "reminderCheckBattery": "Verificar status da otimização de bateria",
+  "reminderBatteryStatus": "Status da otimização de bateria",
+  "reminderManufacturer": "Fabricante: {value}",
+  "reminderModel": "Modelo: {value}",
+  "reminderAndroidVersion": "Versão do Android: {value}",
+  "reminderBatteryIgnored": "Otimização de bateria: Ignorada ✅",
+  "reminderBatteryNotIgnored": "Otimização de bateria: Não ignorada ⚠️",
+  "reminderBatteryAdvice": "Recomendamos desativar a otimização de bateria para notificações funcionarem corretamente",
+  "reminderCheckChannel": "Verificar configurações do canal de notificação",
+  "reminderChannelStatus": "Status do canal de notificação",
+  "reminderChannelEnabled": "Canal ativado: Sim ✅",
+  "reminderChannelDisabled": "Canal ativado: Não ❌",
+  "reminderChannelImportance": "Importância: {value}",
+  "reminderChannelSoundOn": "Som: Ativado 🔊",
+  "reminderChannelSoundOff": "Som: Desativado 🔇",
+  "reminderChannelVibrationOn": "Vibração: Ativada 📳",
+  "reminderChannelVibrationOff": "Vibração: Desativada",
+  "reminderChannelDndBypass": "Não perturbe: Pode ignorar",
+  "reminderChannelDndNoBypass": "Não perturbe: Não pode ignorar",
+  "reminderChannelAdvice": "⚠️ Configurações recomendadas:",
+  "reminderChannelAdviceImportance": "• Importância: Urgente ou Alta",
+  "reminderChannelAdviceSound": "• Ativar som e vibração",
+  "reminderChannelAdviceBanner": "• Permitir notificações em banner",
+  "reminderChannelAdviceXiaomi": "• Celulares Xiaomi precisam de configuração de canal individual",
+  "reminderChannelGood": "✅ Canal de notificação configurado corretamente",
+  "reminderOpenAppSettings": "Abrir Configurações do App",
+  "reminderAppSettingsMessage": "Permita notificações e desative a otimização de bateria nas configurações",
+  "reminderDescription": "Dica: quando o lembrete de registro estiver ativado, o sistema enviará notificações no horário especificado todos os dias para lembrar você de registrar receitas e despesas.",
+  "reminderIOSInstructions": "🍎 Configurações de notificação do iOS:\n• Ajustes > Notificações > BeeCount\n• Ative \"Permitir Notificações\"\n• Defina o estilo de notificação: Banner ou Alerta\n• Ative som e vibração\n\n⚠️ Observação importante:\n• As notificações locais do iOS dependem do processo do app\n• Não force o encerramento do app no gerenciador de tarefas\n• As notificações funcionam com o app em segundo ou primeiro plano\n• Forçar o encerramento desativa as notificações\n\n💡 Dicas de uso:\n• Basta pressionar o botão Home para sair do app\n• O iOS gerencia os apps em segundo plano automaticamente\n• Mantenha o app em segundo plano para receber os lembretes",
+  "reminderAndroidInstructions": "Se as notificações não funcionarem corretamente, verifique:\n• O app tem permissão para enviar notificações\n• A otimização de bateria/economia de energia está desativada para o app\n• O app pode rodar em segundo plano e iniciar automaticamente\n• Android 12+ precisa de permissão de alarme exato\n\n📱 Configurações específicas para Xiaomi:\n• Ajustes > Gerenciador de apps > BeeCount > Gerenciamento de notificações\n• Toque no canal \"Lembrete de registro\"\n• Defina a importância como \"Urgente\" ou \"Alta\"\n• Ative \"Notificações em banner\", \"Som\", \"Vibração\"\n• Central de Segurança > Gerenciador de apps > Permissões > Início automático\n\n🔒 Métodos para travar em segundo plano:\n• Encontre o BeeCount nas tarefas recentes\n• Puxe o card do app para baixo pra mostrar o ícone de cadeado\n• Toque no ícone de cadeado para evitar que seja encerrado",
+  "categoryDetailLoadFailed": "Falha ao carregar",
+  "categoryDetailSummaryTitle": "Resumo da Categoria",
+  "categoryDetailTotalCount": "Quantidade Total",
+  "categoryDetailTotalAmount": "Valor Total",
+  "categoryDetailAverageAmount": "Valor Médio",
+  "categoryDetailSortTitle": "Ordenar",
+  "categoryDetailSortTimeDesc": "Data ↓",
+  "categoryDetailSortTimeAsc": "Data ↑",
+  "categoryDetailSortAmountDesc": "Valor ↓",
+  "categoryDetailSortAmountAsc": "Valor ↑",
+  "categoryDetailNoTransactions": "Sem lançamentos",
+  "categoryDetailNoTransactionsSubtext": "Ainda não há lançamentos nesta categoria",
+  "categoryDetailDeleteFailed": "Falha ao excluir",
+  "categoryMigrationConfirmTitle": "Confirmar Migração",
+  "categoryMigrationConfirmMessage": "Migrar {count} lançamentos de \"{fromName}\" para \"{toName}\"?\n\nEssa operação não pode ser desfeita!",
+  "categoryMigrationConfirmOk": "Confirmar Migração",
+  "categoryMigrationCompleteTitle": "Migração Concluída",
+  "categoryMigrationCompleteMessage": "{count} lançamentos migrados com sucesso de \"{fromName}\" para \"{toName}\".",
+  "categoryMigrationFailedTitle": "Falha na Migração",
+  "categoryMigrationFailedMessage": "Erro na migração: {error}",
+  "categoryMigrationTransactionLabel": "{count} lançamentos",
+  "@categoryMigrationTransactionLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mineImportCompleteAllSuccess": "Tudo Concluído com Sucesso",
+  "mineCheckUpdateDetecting": "Verificando atualização...",
+  "mineCheckUpdateSubtitleDetecting": "Verificando a versão mais recente",
+  "mineUpdateDownloadTitle": "Baixar Atualização",
+  "cloudTest": "Testar",
+  "cloudSwitched": "Alterado",
+  "cloudSwitchFailed": "Falha ao alterar",
+  "cloudSupabaseUrlLabel": "URL do Supabase",
+  "cloudSupabaseUrlHint": "https://xxx.supabase.co",
+  "cloudAnonKeyLabel": "Chave Anônima (Anon Key)",
+  "cloudSelectServiceType": "Selecione o Tipo de Serviço na Nuvem",
+  "cloudMultiDeviceWarningTitle": "Dicas para Múltiplos Dispositivos",
+  "cloudMultiDeviceWarningMessage": "Envie os dados antes de trocar de dispositivo e baixe-os no novo dispositivo antes de editar. Não edite o mesmo livro em dois dispositivos ao mesmo tempo. Toque para ver detalhes →",
+  "cloudWebdavUrlLabel": "URL do Servidor WebDAV",
+  "cloudWebdavUrlHint": "https://dav.jianguoyun.com/dav/",
+  "cloudWebdavUsernameLabel": "Usuário",
+  "cloudWebdavPasswordLabel": "Senha",
+  "cloudWebdavPathHint": "/BeeCount",
+  "cloudS3EndpointLabel": "Endpoint",
+  "cloudS3EndpointHint": "s3.amazonaws.com ou endpoint personalizado",
+  "cloudS3RegionLabel": "Região",
+  "cloudS3RegionHint": "us-east-1 (deixe em branco para automático)",
+  "cloudS3AccessKeyLabel": "Access Key",
+  "cloudS3AccessKeyHint": "Seu Access Key ID",
+  "cloudS3SecretKeyLabel": "Secret Key",
+  "cloudS3SecretKeyHint": "Sua Secret Access Key",
+  "cloudS3BucketLabel": "Nome do Bucket",
+  "cloudS3BucketHint": "beecount-data",
+  "cloudS3UseSSLLabel": "Usar HTTPS",
+  "cloudS3PortLabel": "Porta (opcional)",
+  "cloudS3PortHint": "Deixe em branco para usar o padrão",
+  "cloudSupabaseBucketLabel": "Nome do Bucket de Armazenamento",
+  "cloudSupabaseBucketHint": "Deixe em branco para usar o padrão: beecount-backups",
+  "authRememberAccount": "Lembrar conta",
+  "authRememberAccountHint": "Preenchimento automático no próximo login (somente Supabase)",
+  "cloudConfigSaved": "Configuração salva",
+  "cloudTestSuccess": "Teste de conexão bem-sucedido!",
+  "cloudTestFailed": "Falha no teste de conexão, verifique se a configuração está correta.",
+  "cloudTestError": "Falha no teste",
+  "authLogin": "Entrar",
+  "authEmail": "E-mail",
+  "authPassword": "Senha",
+  "authInvalidEmail": "Digite um endereço de e-mail válido",
+  "authNoAccountYet": "Ainda não tem uma conta? ",
+  "authViewRegisterGuide": "Veja como se cadastrar",
+  "authErrorInvalidCredentials": "E-mail ou senha incorretos.",
+  "authErrorEmailNotConfirmed": "E-mail não verificado. Confirme seu e-mail antes de fazer login.",
+  "authErrorRateLimit": "Muitas tentativas, tente novamente mais tarde.",
+  "authErrorNetworkIssue": "Erro de rede, verifique sua conexão e tente novamente.",
+  "authErrorLoginFailed": "Falha no login, tente novamente mais tarde.",
+  "authErrorEmailInvalid": "Endereço de e-mail inválido, verifique se há erros de digitação.",
+  "authErrorWeakPassword": "Senha muito simples, inclua letras e números, com pelo menos 6 caracteres.",
+  "importSelectCsvFile": "Selecione um arquivo para importar (CSV/TSV/XLSX suportados)",
+  "exportTitle": "Exportar",
+  "exportDescription": "Tipos de exportação suportados:\n• Lançamentos (Receita/Despesa/Transferência)\n• Categorias\n• Contas\n\nClique no botão abaixo para escolher o local de salvamento e exportar o livro atual para um arquivo CSV.",
+  "exportButtonIOS": "Exportar e Compartilhar",
+  "exportButtonAndroid": "Exportar Dados",
+  "exportSavedTo": "Salvo em: {path}",
+  "exportCsvHeaderType": "Tipo",
+  "exportCsvHeaderCategory": "Categoria",
+  "exportCsvHeaderSubCategory": "Subcategoria",
+  "exportCsvHeaderAmount": "Valor",
+  "exportCsvHeaderAccount": "Conta",
+  "exportCsvHeaderFromAccount": "Conta de Origem",
+  "exportCsvHeaderToAccount": "Conta de Destino",
+  "exportCsvHeaderNote": "Observação",
+  "exportCsvHeaderTime": "Data/Hora",
+  "exportCsvHeaderTags": "Tags",
+  "exportCsvHeaderAttachments": "Anexos",
+  "exportShareText": "Arquivo de Exportação do BeeCount",
+  "exportSuccessTitle": "Exportação Concluída",
+  "exportSuccessMessageIOS": "Salvo e disponível no histórico de compartilhamento:\n{path}",
+  "exportSuccessMessageAndroid": "Salvo em:\n{path}",
+  "exportFailedTitle": "Falha na Exportação",
+  "exportTypeIncome": "Receita",
+  "exportTypeExpense": "Despesa",
+  "exportTypeTransfer": "Transferência",
+  "@exportSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportSuccessMessageIOS": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportSuccessMessageAndroid": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "personalizeThemeHoney": "Amarelo Abelha",
+  "personalizeThemeOrange": "Laranja Chama",
+  "personalizeThemeGreen": "Verde Esmeralda",
+  "personalizeThemePurple": "Lótus Roxo",
+  "personalizeThemePink": "Rosa Cereja",
+  "personalizeThemeBlue": "Azul Céu",
+  "personalizeThemeMint": "Lua da Floresta",
+  "personalizeThemeSand": "Duna do Pôr do Sol",
+  "personalizeThemeLavender": "Neve e Pinheiro",
+  "personalizeThemeSky": "País das Maravilhas Nebuloso",
+  "personalizeThemeWarmOrange": "Laranja Quente",
+  "personalizeThemeMintGreen": "Verde Menta",
+  "personalizeThemeRoseGold": "Ouro Rosé",
+  "personalizeThemeDeepBlue": "Azul Profundo",
+  "personalizeThemeMapleRed": "Vermelho Bordô",
+  "personalizeThemeEmerald": "Esmeralda",
+  "personalizeThemeLavenderPurple": "Lavanda",
+  "personalizeThemeAmber": "Âmbar",
+  "personalizeThemeRouge": "Vermelho Rouge",
+  "personalizeThemeIndigo": "Azul Índigo",
+  "personalizeThemeOlive": "Verde Oliva",
+  "personalizeThemeCoral": "Rosa Coral",
+  "personalizeThemeDarkGreen": "Verde Escuro",
+  "personalizeThemeViolet": "Violeta",
+  "personalizeThemeSunset": "Laranja Pôr do Sol",
+  "personalizeThemePeacock": "Azul Pavão",
+  "personalizeThemeLime": "Verde Limão",
+  "analyticsMonthlyAvg": "Média Mensal",
+  "analyticsDailyAvg": "Média Diária",
+  "analyticsOverallAvg": "Média Geral",
+  "analyticsTotalIncome": "Receita Total: ",
+  "analyticsTotalExpense": "Despesa Total: ",
+  "analyticsBalance": "Saldo: ",
+  "analyticsAvgIncome": "Receita {avgLabel}: ",
+  "@analyticsAvgIncome": {
+    "placeholders": {
+      "avgLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "analyticsAvgExpense": "Despesa {avgLabel}: ",
+  "@analyticsAvgExpense": {
+    "placeholders": {
+      "avgLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "analyticsExpense": "Despesa",
+  "analyticsIncome": "Receita",
+  "analyticsTotal": "Total {type}: ",
+  "@analyticsTotal": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "analyticsAverage": "{avgLabel}: ",
+  "@analyticsAverage": {
+    "placeholders": {
+      "avgLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "updateCheckTitle": "Verificar Atualização",
+  "updateNewVersionTitle": "Nova Versão {version} Encontrada",
+  "@updateNewVersionTitle": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateNoApkFound": "Link de download do APK não encontrado",
+  "updateAlreadyLatest": "Já está na versão mais recente",
+  "updateCheckFailed": "Falha ao verificar atualização",
+  "updatePermissionDenied": "Permissão negada",
+  "updateUserCancelled": "Cancelado pelo usuário",
+  "updateDownloadTitle": "Baixar Atualização",
+  "updateDownloading": "Baixando: {percent}%",
+  "@updateDownloading": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "updateDownloadBackgroundHint": "Você pode colocar o app em segundo plano, o download continuará",
+  "updateCancelButton": "Cancelar",
+  "updateBackgroundDownload": "Download em Segundo Plano",
+  "updateLaterButton": "Mais tarde",
+  "updateDownloadButton": "Baixar",
+  "updateInstallingCachedApk": "Instalando APK em cache",
+  "updateDownloadComplete": "Download Concluído",
+  "updateInstallStarted": "Download concluído, instalador iniciado",
+  "updateInstallFailed": "Falha na instalação",
+  "updateDownloadFailed": "Falha no download",
+  "updateInstallNow": "Instalar Agora",
+  "updateNotificationPermissionTitle": "Permissão de Notificação Negada",
+  "updateCheckFailedTitle": "Falha ao Verificar Atualização",
+  "updateDownloadFailedTitle": "Falha no Download",
+  "updateGoToGitHub": "Ir para o GitHub",
+  "updateCannotOpenLink": "Não foi possível abrir o link",
+  "updateManualVisit": "Acesse manualmente pelo navegador:\\nhttps://github.com/TNT-Likely/BeeCount/releases",
+  "updateNoLocalApkTitle": "Nenhum Pacote de Atualização Encontrado",
+  "updateInstallPackageTitle": "Instalar Pacote de Atualização",
+  "updateMultiplePackagesTitle": "Vários Pacotes de Atualização Encontrados",
+  "updateSearchFailedTitle": "Falha na Busca",
+  "updateFoundCachedPackageTitle": "Pacote de Atualização Já Baixado Encontrado",
+  "updateIgnoreButton": "Ignorar",
+  "updateInstallFailedTitle": "Falha na Instalação",
+  "updateInstallFailedMessage": "Não foi possível iniciar o instalador do APK, verifique as permissões do arquivo.",
+  "updateErrorTitle": "Erro",
+  "updateCheckingPermissions": "Verificando permissões...",
+  "updateCheckingCache": "Verificando cache local...",
+  "updatePreparingDownload": "Preparando download...",
+  "updateUserCancelledDownload": "Download cancelado pelo usuário",
+  "updateStartingInstaller": "Iniciando instalador...",
+  "updateInstallerStarted": "Instalador iniciado",
+  "updateInstallationFailed": "Falha na instalação",
+  "updateDownloadCompleted": "Download concluído",
+  "updateDownloadCompletedManual": "Download concluído, pode instalar manualmente",
+  "updateDownloadCompletedDialog": "Download concluído, instale manualmente (exceção de diálogo)",
+  "updateDownloadCompletedContext": "Download concluído, instale manualmente",
+  "updateDownloadFailedGeneric": "Falha no download",
+  "updateCheckingUpdate": "Verificando atualizações...",
+  "updateCurrentLatestVersion": "Já está na versão mais recente",
+  "updateCheckFailedGeneric": "Falha ao verificar atualização",
+  "updateDownloadProgress": "Baixando: {percent}%",
+  "@updateDownloadProgress": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "updateCheckingUpdateError": "Falha ao verificar atualização: {error}",
+  "@updateCheckingUpdateError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "updateNoLocalApkFoundMessage": "Nenhum arquivo de atualização baixado foi encontrado.\\n\\nPrimeiro baixe a nova versão em \"Verificar Atualização\".",
+  "updateInstallPackageFoundMessage": "Pacote de atualização encontrado:\\n\\nNome do arquivo: {fileName}\\nTamanho: {fileSize}MB\\nData do download: {time}\\n\\nInstalar agora?",
+  "@updateInstallPackageFoundMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      },
+      "fileSize": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "updateMultiplePackagesFoundMessage": "{count} arquivos de pacote de atualização encontrados.\\n\\nRecomendamos usar a versão baixada mais recente, ou instalar manualmente pelo gerenciador de arquivos.\\n\\nLocal do arquivo: {path}",
+  "@updateMultiplePackagesFoundMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "updateSearchLocalApkError": "Ocorreu um erro ao procurar pacotes de atualização locais: {error}",
+  "@updateSearchLocalApkError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "updateCachedPackageFoundMessage": "Pacote de atualização baixado anteriormente detectado:\\n\\nNome do arquivo: {fileName}\\nTamanho: {fileSize}MB\\n\\nInstalar agora?",
+  "@updateCachedPackageFoundMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      },
+      "fileSize": {
+        "type": "String"
+      }
+    }
+  },
+  "updateReadCachedPackageError": "Falha ao ler o pacote de atualização em cache: {error}",
+  "@updateReadCachedPackageError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "updateOk": "OK",
+  "updateCannotOpenLinkTitle": "Não Foi Possível Abrir o Link",
+  "updateCachedVersionTitle": "Versão Baixada Encontrada",
+  "updateCachedVersionMessage": "Pacote de instalação baixado anteriormente encontrado... Clique em \\\"OK\\\" para instalar agora, clique em \\\"Cancelar\\\" para fechar...",
+  "updateConfirmDownload": "Baixar e Instalar Agora",
+  "updateDownloadCompleteTitle": "Download Concluído",
+  "updateInstallConfirmMessage": "A nova versão foi baixada. Instalar agora?",
+  "updateMirrorSelectTitle": "Selecionar Espelho de Download",
+  "updateMirrorSelectHint": "Se o download estiver lento, selecione um espelho acelerado. Clique em \"Testar\" para verificar a latência.",
+  "updateMirrorTestButton": "Testar",
+  "updateMirrorTesting": "Testando {completed}/{total}...",
+  "@updateMirrorTesting": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "updateMirrorDirectHint": "Para usuários com boa conexão",
+  "updateDownloadMirror": "Fonte: {mirror}",
+  "@updateDownloadMirror": {
+    "placeholders": {
+      "mirror": {
+        "type": "String"
+      }
+    }
+  },
+  "updateMirrorSettingTitle": "Espelho de Download",
+  "updateNotificationPermissionGuideText": "As notificações de progresso do download estão desativadas, mas isso não afeta o funcionamento do download. Para ver o progresso:",
+  "updateNotificationGuideStep1": "Vá em Configurações do Sistema > Gerenciador de Apps",
+  "updateNotificationGuideStep2": "Encontre o app \\\"BeeCount\\\"",
+  "updateNotificationGuideStep3": "Ative as permissões de notificação",
+  "updateNotificationGuideInfo": "Os downloads continuarão normalmente em segundo plano mesmo sem notificações",
+  "currencyCNY": "Yuan Chinês",
+  "currencyUSD": "Dólar Americano",
+  "currencyEUR": "Euro",
+  "currencyJPY": "Iene Japonês",
+  "currencyHKD": "Dólar de Hong Kong",
+  "currencyTWD": "Novo Dólar Taiwanês",
+  "currencyGBP": "Libra Esterlina",
+  "currencyAUD": "Dólar Australiano",
+  "currencyCAD": "Dólar Canadense",
+  "currencyKRW": "Won Sul-Coreano",
+  "currencySGD": "Dólar de Singapura",
+  "currencyMYR": "Ringgit Malaio",
+  "currencyTHB": "Baht Tailandês",
+  "currencyIDR": "Rupia Indonésia",
+  "currencyPHP": "Peso Filipino",
+  "currencyVND": "Dong Vietnamita",
+  "currencyINR": "Rupia Indiana",
+  "currencyRUB": "Rublo Russo",
+  "currencyBYN": "Rublo Bielorrusso",
+  "currencyNZD": "Dólar Neozelandês",
+  "currencyCHF": "Franco Suíço",
+  "currencySEK": "Coroa Sueca",
+  "currencyNOK": "Coroa Norueguesa",
+  "currencyDKK": "Coroa Dinamarquesa",
+  "currencyBRL": "Real Brasileiro",
+  "currencyMXN": "Peso Mexicano",
+  "currencyTRY": "Lira Turca",
+  "currencyZAR": "Rand Sul-Africano",
+  "currencyAED": "Dirham dos Emirados Árabes",
+  "currencySAR": "Riyal Saudita",
+  "currencyPLN": "Zloty Polonês",
+  "currencyCZK": "Coroa Tcheca",
+  "currencyHUF": "Florim Húngaro",
+  "currencyARS": "Peso Argentino",
+  "currencyCLP": "Peso Chileno",
+  "currencyCOP": "Peso Colombiano",
+  "currencyPEN": "Sol Peruano",
+  "currencyEGP": "Libra Egípcia",
+  "currencyNGN": "Naira Nigeriana",
+  "currencyKZT": "Tenge Cazaque",
+  "currencyUAH": "Hryvnia Ucraniana",
+  "currencyILS": "Novo Shekel Israelense",
+  "currencyPKR": "Rupia Paquistanesa",
+  "currencyBDT": "Taka Bangladês",
+  "currencyLKR": "Rupia do Sri Lanka",
+  "currencyMMK": "Kyat de Mianmar",
+  "webdavConfiguredTitle": "Serviço em Nuvem WebDAV Configurado",
+  "webdavConfiguredMessage": "O serviço em nuvem WebDAV usa as credenciais fornecidas durante a configuração, sem necessidade de login adicional.",
+  "recurringTransactionTitle": "Contas Recorrentes",
+  "recurringTransactionAdd": "Adicionar Conta Recorrente",
+  "recurringTransactionEdit": "Editar Conta Recorrente",
+  "recurringTransactionFrequency": "Frequência",
+  "recurringTransactionDaily": "Diária",
+  "recurringTransactionWeekly": "Semanal",
+  "recurringTransactionMonthly": "Mensal",
+  "recurringTransactionYearly": "Anual",
+  "recurringTransactionInterval": "Intervalo",
+  "recurringTransactionDayOfMonth": "Dia do Mês",
+  "recurringTransactionStartDate": "Data de Início",
+  "recurringTransactionEndDate": "Data de Término",
+  "recurringTransactionNoEndDate": "Sem data de término",
+  "recurringTransactionDeleteConfirm": "Tem certeza de que deseja excluir esta conta recorrente?",
+  "recurringTransactionEmpty": "Nenhuma Conta Recorrente",
+  "recurringTransactionEmptyHint": "Toque no botão + no canto superior direito para adicionar",
+  "recurringTransactionEveryNDays": "A cada {n} dia(s)",
+  "@recurringTransactionEveryNDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recurringTransactionEveryNWeeks": "A cada {n} semana(s)",
+  "@recurringTransactionEveryNWeeks": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recurringTransactionEveryNMonths": "A cada {n} mês(es)",
+  "@recurringTransactionEveryNMonths": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recurringTransactionEveryNYears": "A cada {n} ano(s)",
+  "@recurringTransactionEveryNYears": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recurringTransactionUsageTitle": "Guia de Uso",
+  "recurringTransactionUsageContent": "As contas recorrentes são verificadas e geradas automaticamente quando o app é reiniciado do zero. Depois de definir uma data, o sistema criará os lançamentos correspondentes na primeira abertura após essa data. Por exemplo: se definido para 27 de novembro, os lançamentos serão registrados automaticamente na primeira abertura após 27 de novembro.",
+  "ledgerSelectTitle": "Selecionar Livro",
+  "ledgerSelect": "Selecionar Livro",
+  "syncNotConfiguredMessage": "Nuvem não configurada",
+  "syncNotLoggedInMessage": "Não conectado",
+  "syncCloudBackupCorruptedMessage": "O backup na nuvem está corrompido, possivelmente devido a problemas de codificação de versões antigas. Clique em 'Enviar Livro Atual para a Nuvem' para sobrescrever e corrigir.",
+  "syncNoCloudBackupMessage": "Sem backup na nuvem",
+  "syncAccessDeniedMessage": "403 Acesso negado (verifique a política RLS de armazenamento e o caminho)",
+  "cloudTestConnection": "Testar Conexão",
+  "cloudLocalStorageTitle": "Armazenamento Local",
+  "cloudLocalStorageSubtitle": "Os dados são salvos apenas no dispositivo local",
+  "cloudCustomSupabaseTitle": "Supabase Personalizado",
+  "cloudCustomSupabaseSubtitle": "Toque para configurar um Supabase auto-hospedado",
+  "cloudCustomWebdavTitle": "WebDAV Personalizado",
+  "cloudCustomWebdavSubtitle": "Toque para configurar Nutstore/Nextcloud etc.",
+  "cloudCustomS3Title": "Armazenamento com Protocolo S3",
+  "cloudCustomS3Subtitle": "AWS S3 / Cloudflare R2 / MinIO",
+  "cloudBeeCountCloudTitle": "BeeCount Cloud",
+  "cloudBeeCountCloudSubtitle": "Auto-hospedado · Sincronização incremental · Múltiplos dispositivos",
+  "cloudConfigureBeeCountCloudTitle": "Configurar BeeCount Cloud",
+  "cloudBeeCountCloudUrlLabel": "URL do Servidor",
+  "cloudBeeCountCloudUrlHint": "https://seu-servidor.com",
+  "cloudBeeCountCloudApiPrefixLabel": "Prefixo da API",
+  "cloudBeeCountCloudApiPrefixHint": "/api/v1",
+  "cloudBeeCountCloudEmailLabel": "E-mail",
+  "cloudBeeCountCloudEmailHint": "seu@email.com",
+  "cloudBeeCountCloudPasswordLabel": "Senha",
+  "cloudBeeCountCloudPasswordHint": "Digite a senha",
+  "cloudBeeCountCloudLoginSuccess": "Login realizado com sucesso",
+  "cloudBeeCountCloudLoginFailed": "Falha no login",
+  "cloudBeeCountCloudSyncSubtitle": "Sincronização incremental · Múltiplos dispositivos",
+  "cloudBeeCountCloudConnected": "Conectado",
+  "cloudBeeCountCloudNotConnected": "Não conectado",
+  "cloudBeeCountCloudNotConnectedHint": "Configure e faça login nas configurações do serviço em nuvem",
+  "cloudBeeCountCloudAutoSync": "Sincronização Incremental",
+  "cloudBeeCountCloudAutoSyncHint": "As alterações são sincronizadas com a nuvem automaticamente",
+  "cloudBeeCountCloudMultiDevice": "Sincronização entre Dispositivos",
+  "cloudBeeCountCloudMultiDeviceHint": "Mantenha os dados consistentes entre os dispositivos",
+  "cloudBeeCountCloudAttachment": "Sincronização de Anexos",
+  "cloudBeeCountCloudAttachmentHint": "Imagens de recibos são salvas na nuvem automaticamente",
+  "cloudTabOffline": "Offline",
+  "cloudTabBackup": "Backup",
+  "cloudTabCloudSync": "Sincronização na Nuvem",
+  "cloudIcloudSubtitle": "Sincronização automática com o Apple ID",
+  "cloudIcloudNotAvailableTitle": "iCloud Não Disponível",
+  "cloudIcloudNotAvailableMessage": "Entre com sua conta no iCloud nas Configurações e tente novamente",
+  "cloudIcloudHelpTitle": "Instruções do iCloud",
+  "cloudIcloudHelpPrerequisites": "Pré-requisitos",
+  "cloudIcloudHelpPrereq1": "1. O dispositivo está conectado com um Apple ID",
+  "cloudIcloudHelpPrereq2": "2. O iCloud Drive está ativado",
+  "cloudIcloudHelpPrereq3": "3. O dispositivo está conectado à internet",
+  "cloudIcloudHelpCheckTitle": "Como Verificar o iCloud Drive",
+  "cloudIcloudHelpCheck1": "1. Abra as Configurações",
+  "cloudIcloudHelpCheck2": "2. Toque no seu Apple ID no topo da tela",
+  "cloudIcloudHelpCheck3": "3. Toque em iCloud",
+  "cloudIcloudHelpCheck4": "4. Certifique-se de que o iCloud Drive está ativado",
+  "cloudIcloudHelpFaqTitle": "Perguntas Frequentes",
+  "cloudIcloudHelpFaq1": "Se não estiver disponível, verifique se o iCloud Drive está ativado",
+  "cloudIcloudHelpFaq2": "O primeiro uso pode levar alguns segundos para inicializar",
+  "cloudIcloudHelpFaq3": "Os dados são armazenados no seu espaço privado do iCloud",
+  "cloudIcloudHelpFaq4": "Dispositivos com o mesmo Apple ID sincronizam automaticamente",
+  "cloudIcloudHelpNote": "A sincronização com iCloud usa seu Apple ID, sem necessidade de configuração extra",
+  "cloudSupabaseHelpTitle": "Guia de Configuração do Supabase",
+  "cloudSupabaseHelpIntro": "O que é o Supabase",
+  "cloudSupabaseHelpIntro1": "O Supabase é uma plataforma de backend como serviço de código aberto",
+  "cloudSupabaseHelpIntro2": "Oferece um plano gratuito, suficiente para uso pessoal",
+  "cloudSupabaseHelpIntro3": "Você tem controle total sobre seus dados",
+  "cloudSupabaseHelpSteps": "Passos de Configuração",
+  "cloudSupabaseHelpStep1": "1. Acesse supabase.com para criar uma conta",
+  "cloudSupabaseHelpStep2": "2. Crie um novo projeto (selecione o plano gratuito)",
+  "cloudSupabaseHelpStep3": "3. Vá em Project Settings > API",
+  "cloudSupabaseHelpStep4": "4. Copie a Project URL e a anon key",
+  "cloudSupabaseHelpStep5": "5. Cole-as na configuração do app",
+  "cloudSupabaseHelpFaq": "Perguntas frequentes",
+  "cloudSupabaseHelpFaq1": "O plano gratuito inclui 500MB de armazenamento",
+  "cloudSupabaseHelpFaq2": "Os dados são criptografados e seguros",
+  "cloudSupabaseHelpFaq3": "Suporta sincronização entre vários dispositivos",
+  "cloudSupabaseHelpNote": "Após a configuração, você precisa se cadastrar/entrar para usar a sincronização",
+  "cloudDetailedTutorial": "Tutorial detalhado",
+  "cloudWebdavHelpTitle": "Guia de configuração do WebDAV",
+  "cloudWebdavHelpIntro": "O que é WebDAV",
+  "cloudWebdavHelpIntro1": "WebDAV é um protocolo de arquivos em rede",
+  "cloudWebdavHelpIntro2": "Compatível com muitos serviços de armazenamento em nuvem e dispositivos NAS",
+  "cloudWebdavHelpIntro3": "Os dados ficam armazenados no seu próprio servidor",
+  "cloudWebdavHelpProviders": "Provedores compatíveis",
+  "cloudWebdavHelpProvider1": "- Nutstore (recomendado para usuários na China)",
+  "cloudWebdavHelpProvider2": "- Nextcloud / ownCloud",
+  "cloudWebdavHelpProvider3": "- Synology / QNAP NAS",
+  "cloudWebdavHelpProvider4": "- Outros serviços compatíveis com WebDAV",
+  "cloudWebdavHelpSteps": "Passos de configuração (exemplo com Nutstore)",
+  "cloudWebdavHelpStep1": "1. Entre na versão web do Nutstore",
+  "cloudWebdavHelpStep2": "2. Clique no nome da conta > Informações da conta",
+  "cloudWebdavHelpStep3": "3. Selecione a aba Opções de segurança",
+  "cloudWebdavHelpStep4": "4. Adicione uma senha de aplicativo (para apps de terceiros)",
+  "cloudWebdavHelpStep5": "5. Copie o endereço do servidor, a conta e a senha do app",
+  "cloudWebdavHelpNote": "Use uma senha específica de app em vez da senha da sua conta",
+  "cloudS3HelpTitle": "Guia de configuração de armazenamento S3",
+  "cloudS3HelpIntro": "O que é S3",
+  "cloudS3HelpIntro1": "S3 é um protocolo padrão de armazenamento de objetos",
+  "cloudS3HelpIntro2": "Compatível com muitos provedores de nuvem",
+  "cloudS3HelpIntro3": "Os dados ficam armazenados no serviço de nuvem que você escolher",
+  "cloudS3HelpProviders": "Provedores compatíveis",
+  "cloudS3HelpProvider1": "- AWS S3 (Amazon Web Services)",
+  "cloudS3HelpProvider2": "- Cloudflare R2 (10GB grátis/mês)",
+  "cloudS3HelpProvider3": "- Backblaze B2 (10GB grátis)",
+  "cloudS3HelpProvider4": "- MinIO (auto-hospedado)",
+  "cloudS3HelpProvider5": "- Alibaba Cloud OSS",
+  "cloudS3HelpProvider6": "- Tencent Cloud COS",
+  "cloudS3HelpProvider7": "- Qiniu Kodo",
+  "cloudS3HelpSteps": "Passos de configuração (exemplo com Cloudflare R2)",
+  "cloudS3HelpStep1": "1. Entre no Cloudflare Dashboard",
+  "cloudS3HelpStep2": "2. Vá em R2 > Create Bucket",
+  "cloudS3HelpStep3": "3. Vá em R2 > Manage R2 API Tokens",
+  "cloudS3HelpStep4": "4. Crie um API Token e copie as credenciais",
+  "cloudS3HelpStep5": "5. Cole o endpoint, a access key, a secret key e o nome do bucket",
+  "cloudS3HelpNote": "Recomendado: o Cloudflare R2 oferece 10GB de armazenamento grátis sem taxas de saída de dados",
+  "cloudStatusNotTested": "Não testado",
+  "cloudStatusNormal": "Conexão normal",
+  "cloudStatusFailed": "Falha na conexão",
+  "cloudCannotOpenLink": "Não foi possível abrir o link",
+  "cloudErrorAuthFailed": "Falha na autenticação: API Key inválida",
+  "cloudErrorServerStatus": "O servidor retornou o código de status {code}",
+  "@cloudErrorServerStatus": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudErrorWebdavNotSupported": "O servidor não é compatível com o protocolo WebDAV",
+  "cloudErrorAuthFailedCredentials": "Falha na autenticação: usuário ou senha incorretos",
+  "cloudErrorAccessDenied": "Acesso negado: verifique as permissões",
+  "cloudErrorPathNotFound": "Caminho não encontrado no servidor: {path}",
+  "@cloudErrorPathNotFound": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudErrorNetwork": "Erro de rede: {message}",
+  "@cloudErrorNetwork": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudTestSuccessTitle": "Teste concluído com sucesso",
+  "cloudTestSuccessMessage": "Conexão normal, configuração válida",
+  "cloudTestFailedTitle": "Falha no teste",
+  "cloudTestFailedMessage": "Falha na conexão",
+  "cloudTestErrorTitle": "Erro no teste",
+  "cloudSwitchConfirmTitle": "Trocar serviço de nuvem",
+  "cloudSwitchConfirmMessage": "Trocar de serviço de nuvem vai desconectar a conta atual. Confirmar a troca?",
+  "cloudSwitchFailedTitle": "Falha ao trocar",
+  "cloudSwitchFailedConfigMissing": "Configure este serviço de nuvem primeiro",
+  "cloudConfigInvalidTitle": "Configuração inválida",
+  "cloudConfigInvalidMessage": "Preencha todas as informações",
+  "cloudSaveFailed": "Falha ao salvar",
+  "cloudSwitchedTo": "Alterado para {type}",
+  "@cloudSwitchedTo": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudConfigureSupabaseTitle": "Configurar Supabase",
+  "cloudConfigureWebdavTitle": "Configurar WebDAV",
+  "cloudConfigureS3Title": "Configurar S3",
+  "cloudSupabaseAnonKeyHintLong": "Cole a anon key completa",
+  "cloudWebdavRemotePathHelp": "Caminho do diretório remoto para armazenar os dados",
+  "cloudWebdavRemotePathLabel": "Caminho remoto",
+  "cloudWebdavRemotePathHelperText": "Caminho do diretório remoto para armazenar os dados",
+  "accountsTitle": "Gestão de patrimônio",
+  "accountsEmptyMessage": "Nenhuma conta ainda, toque no canto superior direito para adicionar",
+  "accountAddTooltip": "Adicionar conta",
+  "accountAddButton": "Adicionar conta",
+  "accountBalance": "Saldo",
+  "accountEditTitle": "Editar conta",
+  "accountNewTitle": "Nova conta",
+  "accountNameLabel": "Nome da conta",
+  "accountNameHint": "ex.: Nubank, Itaú, Carteira, etc.",
+  "accountNameRequired": "Digite o nome da conta",
+  "accountNameDuplicate": "Já existe uma conta com esse nome, escolha outro",
+  "accountTypeLabel": "Tipo de conta",
+  "accountTypeCash": "Dinheiro",
+  "accountTypeBankCard": "Cartão bancário",
+  "accountTypeCreditCard": "Cartão de crédito",
+  "accountTypeAlipay": "Alipay",
+  "accountTypeWechat": "WeChat",
+  "accountTypeOther": "Outro",
+  "accountInitialBalance": "Saldo inicial",
+  "accountInitialBalanceHint": "Informe o saldo inicial (opcional)",
+  "accountDeleteWarningTitle": "Confirmar exclusão",
+  "accountDeleteWarningMessage": "Esta conta tem {count} lançamentos relacionados. Ao excluir, as informações da conta nesses lançamentos serão apagadas. Confirmar exclusão?",
+  "@accountDeleteWarningMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "accountDeleteConfirm": "Confirmar exclusão desta conta?",
+  "accountSelectTitle": "Selecionar conta",
+  "accountNone": "Sem conta",
+  "accountsEnableFeature": "Ativar recurso de contas",
+  "privacyOpenSourceUrlError": "Não foi possível abrir o link",
+  "updateCorruptedFileTitle": "Pacote de instalação corrompido",
+  "updateCorruptedFileMessage": "O pacote de instalação baixado anteriormente está incompleto ou corrompido. Excluir e baixar novamente?",
+  "welcomeTitle": "Bem-vindo ao BeeCount",
+  "welcomeDescription": "Um app de finanças que realmente respeita sua privacidade",
+  "welcomeCurrencyDescription": "Escolha sua moeda preferida, você pode alterá-la depois nas configurações",
+  "welcomeCreateDefaultLedger": "Criar um livro padrão",
+  "welcomePrivacyTitle": "Código aberto · Feito pela comunidade",
+  "welcomePrivacyFeature1": "Código 100% aberto, fiscalizado pela comunidade",
+  "welcomePrivacyFeature2": "Sem preocupações com privacidade, dados armazenados localmente",
+  "welcomeOpenSourceFeature1": "Comunidade de desenvolvedores ativa, com melhorias contínuas",
+  "welcomeViewGitHub": "Visitar repositório no GitHub",
+  "welcomeCloudSyncTitle": "Sincronização na nuvem opcional",
+  "welcomeCloudSyncDescription": "O BeeCount é compatível com vários métodos de sincronização — seus dados, sob seu controle",
+  "welcomeCloudSyncFeature1": "Uso totalmente offline, sem precisar de nuvem",
+  "welcomeCloudSyncFeature2": "BeeCount Cloud auto-hospedado (multi-dispositivo em tempo real + painel Web)",
+  "welcomeCloudSyncFeature3": "Ou escolha iCloud / WebDAV / Supabase / S3",
+  "widgetManagement": "Widget da tela inicial",
+  "widgetManagementDesc": "Veja receitas e despesas rapidamente na tela inicial",
+  "widgetPreview": "Pré-visualização do widget",
+  "widgetPreviewDesc": "O widget exibe automaticamente os dados reais do livro atual; a cor do tema segue as configurações do app",
+  "howToAddWidget": "Como adicionar o widget",
+  "iosWidgetStep1": "Toque e segure numa área vazia da tela inicial para entrar no modo de edição",
+  "iosWidgetStep2": "Toque no botão \"+\" no canto superior esquerdo",
+  "iosWidgetStep3": "Pesquise e selecione \"BeeCount\"",
+  "iosWidgetStep4": "Selecione o widget médio e adicione à tela inicial",
+  "androidWidgetStep1": "Toque e segure numa área vazia da tela inicial",
+  "androidWidgetStep2": "Selecione \"Widgets\"",
+  "androidWidgetStep3": "Encontre o widget \"BeeCount\" e toque e segure nele",
+  "androidWidgetStep4": "Arraste para a posição desejada na tela inicial",
+  "aboutWidget": "Sobre o widget",
+  "widgetDescription": "O widget sincroniza automaticamente para exibir as receitas e despesas de hoje e do mês, atualizando a cada 30 minutos. Os dados são atualizados imediatamente ao abrir o app.",
+  "widgetQuickEntryTitle": "Lançamento rápido",
+  "widgetQuickEntryDesc": "Toque no lado esquerdo do widget para adicionar uma despesa rapidamente, ou no lado direito para adicionar uma receita. Você também pode usar beecount://new?type=transfer nos Atalhos para iniciar uma transferência rapidamente.",
+  "appName": "BeeCount",
+  "monthSuffix": "",
+  "todayExpense": "Despesa de hoje",
+  "todayIncome": "Receita de hoje",
+  "monthExpense": "Despesa do mês",
+  "monthIncome": "Receita do mês",
+  "autoScreenshotBilling": "Lançamento automático por captura de tela",
+  "autoScreenshotBillingDesc": "Reconhece automaticamente informações de pagamento em capturas de tela",
+  "autoScreenshotBillingTitle": "Lançamento automático por captura de tela",
+  "featureDescription": "Descrição do recurso",
+  "featureDescriptionContent": "Depois de tirar uma captura de tela da página de pagamento, o sistema reconhece automaticamente o valor e o nome do estabelecimento, e cria o lançamento de despesa.\n\n⚡ Velocidade de reconhecimento: 2-3 segundos (pode ser mais lento em alguns aparelhos)\n🤖 Correspondência inteligente de categoria\n📝 Preenchimento automático de observações\n\n⚠️ Observação:\n• A velocidade para salvar a captura de tela varia entre aparelhos, o atraso pode ser de 5 a 10 segundos\n• Pode não funcionar em alguns aparelhos, dependendo da implementação do sistema\n• Capturas de tela já reconhecidas são ignoradas automaticamente\n• Devido às restrições de Armazenamento Delimitado do Android (Android 10+), os apps não podem excluir capturas de tela do sistema. A limpeza precisa ser feita manualmente",
+  "autoBilling": "Lançamento automático",
+  "enabled": "Ativado",
+  "disabled": "Desativado",
+  "photosPermissionRequired": "É necessária permissão de fotos para monitorar capturas de tela",
+  "enableSuccess": "Lançamento automático ativado",
+  "disableSuccess": "Lançamento automático desativado",
+  "autoBillingBatteryTitle": "Manter em execução em segundo plano",
+  "autoBillingBatteryGuideTitle": "Configurações de otimização de bateria",
+  "autoBillingBatteryDesc": "O lançamento automático exige que o app continue rodando em segundo plano. Alguns aparelhos encerram apps em segundo plano automaticamente ao bloquear a tela, o que pode fazer o lançamento automático falhar. Recomendamos desativar a otimização de bateria para garantir o funcionamento correto.",
+  "autoBillingCheckBattery": "Verificar otimização de bateria",
+  "autoBillingBatteryWarning": "⚠️ A otimização de bateria não está desativada. O sistema pode encerrar o app automaticamente, fazendo o lançamento automático falhar. Toque no botão \"Configurações\" acima para desativar a otimização de bateria.",
+  "enableFailed": "Falha ao ativar",
+  "disableFailed": "Falha ao desativar",
+  "iosAutoFeatureDesc": "Use o app \"Atalhos\" do iOS para identificar automaticamente informações de pagamento em capturas de tela e criar lançamentos. Depois de configurado, ele é acionado automaticamente a cada captura de tela.",
+  "iosAutoShortcutConfigTitle": "Passos de configuração:",
+  "iosAutoShortcutStep1": "Abra o app \"Atalhos\" e toque em \"+\" no canto superior direito para criar um novo atalho",
+  "iosAutoShortcutStep2": "Adicione a ação \"Capturar Tela\"",
+  "iosAutoShortcutStep3": "Pesquise e adicione a ação \"BeeCount - Lançamento automático\"",
+  "iosAutoShortcutStep4": "Defina o parâmetro de captura de tela do \"BeeCount\" como a \"Captura de Tela\" anterior",
+  "iosAutoShortcutStep5": "(Opcional) Vá em Ajustes > Acessibilidade > Toque > Tocar as Costas e vincule este atalho",
+  "iosAutoShortcutStep6": "Pronto! Toque duas vezes na parte de trás do aparelho durante o pagamento para lançar rapidamente",
+  "iosAutoShortcutRecommendedTip": "✅ Recomendado: depois de vincular o atalho ao \"Tocar as Costas\", toque duas vezes na parte de trás do aparelho durante o pagamento para capturar a tela e reconhecer o lançamento automaticamente, sem precisar tirar a captura manualmente.",
+  "iosAutoBackTapTitle": "💡 Toque duas vezes nas costas para acionar (recomendado)",
+  "iosAutoBackTapDesc": "Ajustes > Acessibilidade > Toque > Tocar as Costas\n• Selecione \"Toque Duplo\" ou \"Toque Triplo\"\n• Escolha o atalho que você acabou de criar\n• Depois de configurado, toque duas vezes na parte de trás do aparelho durante o pagamento para lançar automaticamente, sem precisar de captura de tela",
+  "iosAutoTutorialTitle": "Vídeo tutorial",
+  "iosAutoTutorialDesc": "Assista ao vídeo tutorial detalhado de configuração",
+  "iosAutoImportTitle": "Obtenha o atalho com um toque",
+  "iosAutoImportDesc": "Toque no botão abaixo para importar o atalho pronto \"Captura de Tela → Lançamento Automático\" — sem precisar adicionar a ação \"Capturar Tela\" ou conectar parâmetros manualmente. Depois de importar, recomendamos vinculá-lo ao \"Tocar as Costas\".",
+  "iosAutoImportButton": "Obter atalho",
+  "iosAutoImportFailed": "Não foi possível abrir o link do atalho. Verifique sua conexão e tente novamente.",
+  "iosAutoManualConfigTitle": "Configuração manual (avançado)",
+  "iosAutoManualConfigDesc": "Se a importação com um toque não estiver disponível, siga estes passos para criar o atalho manualmente.",
+  "aiSettingsTitle": "Assistente de IA",
+  "aiSettingsSubtitle": "Configure modelos de IA e a estratégia de reconhecimento",
+  "aiEnableTitle": "Ativar assistente de IA",
+  "aiEnableSubtitle": "Use visão por IA para reconhecer capturas de tela de contas, extrair valor, estabelecimento e horário, além de suportar conversas em linguagem natural",
+  "aiEnableToastOn": "Assistente de IA ativado",
+  "aiEnableToastOff": "Assistente de IA desativado",
+  "aiStrategyTitle": "Estratégia de execução",
+  "aiStrategyLocalFirst": "Local primeiro (recomendado)",
+  "aiStrategyCloudFirst": "Nuvem primeiro",
+  "aiStrategyCloudFirstDesc": "Usa a API na nuvem primeiro, e recorre ao modelo local se falhar",
+  "aiStrategyLocalOnly": "Somente local",
+  "aiStrategyCloudOnly": "Somente nuvem",
+  "aiStrategyCloudOnlyDesc": "Usa apenas a API na nuvem, sem baixar modelo",
+  "aiStrategyUnavailable": "Modelo local em treinamento, em breve",
+  "aiStrategySwitched": "Alterado para: {strategy}",
+  "@aiStrategySwitched": {
+    "placeholders": {
+      "strategy": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCloudApiKeyHint": "Digite sua API Key da Zhipu AI",
+  "aiCloudApiKeyHintCustom": "Digite a API Key",
+  "aiCloudApiKeyHelper": "O modelo GLM-*-Flash é totalmente gratuito",
+  "aiCloudApiGetKey": "Obter API Key",
+  "aiCloudApiTutorial": "Tutorial",
+  "aiCloudApiTestKey": "Testar conexão",
+  "aiChatConfigWarning": "Nenhum provedor de IA configurado. Adicione e vincule um nas Configurações",
+  "aiChatGoToSettings": "Ir para Configurações",
+  "aiOcrRecognizing": "Reconhecendo conta...",
+  "aiOcrNoAmount": "Nenhum valor válido reconhecido, adicione manualmente",
+  "aiNotConfiguredHint": "Serviço de IA não configurado. Vá em \"Eu → Configurações de IA\" para configurar.",
+  "aiOcrCheckLog": "Falha no reconhecimento. Veja os registros para mais detalhes.",
+  "aiOcrNoBill": "Nenhuma conta reconhecida. Confirme se a imagem é de uma conta e tente novamente.",
+  "aiNotConfiguredNotificationTitle": "❌ Não foi possível reconhecer a captura de tela",
+  "aiNotConfiguredNotificationBody": "Serviço de IA não configurado. Toque para configurar.",
+  "autoBillingNotifyDetectedTitle": "✅ Captura de tela detectada",
+  "autoBillingNotifyWaitingFileBody": "Aguardando o arquivo ser gravado...",
+  "autoBillingNotifyRecognizingScreenshotTitle": "Reconhecendo captura de tela...",
+  "autoBillingNotifyVisionAnalyzingBody": "Chamando a visão por IA para analisar as informações de pagamento, aguarde",
+  "autoBillingNotifyRecognizingTextTitle": "⏳ Reconhecendo",
+  "autoBillingNotifyTextAnalyzingBody": "Chamando a IA para interpretar as informações de pagamento...",
+  "autoBillingNotifyRecognizeFailedTitle": "❌ Falha no reconhecimento",
+  "autoBillingNotifyRecognizeFailedBody": "Não foi possível extrair as informações de lançamento da captura de tela. Verifique a configuração de IA ou a imagem.",
+  "autoBillingNotifyNoBillTitle": "Nenhuma conta encontrada",
+  "autoBillingNotifyNoBillBody": "Nenhuma informação de lançamento encontrada nessa captura de tela — ela pode não ser uma conta.",
+  "autoBillingNotifyFileUnavailableTitle": "Falha no reconhecimento",
+  "autoBillingNotifyFileUnavailableBody": "O arquivo da captura de tela não está disponível",
+  "autoBillingNotifyNoLedgerTitle": "❌ Falha no lançamento automático",
+  "autoBillingNotifyNoLedgerBody": "Nenhum livro disponível. Crie um primeiro.",
+  "autoBillingNotifyNoAmountBody": "Não foi possível reconhecer o valor",
+  "autoBillingNotifyCreateFailedTitle": "❌ Falha ao criar",
+  "autoBillingNotifyCreateFailedBody": "Não foi possível criar o lançamento",
+  "autoBillingNotifyProcessFailedTitle": "❌ Falha no processamento",
+  "autoBillingNotifyProcessFailedBody": "Erro: {error}",
+  "@autoBillingNotifyProcessFailedBody": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "autoBillingNotifySuccessSingleTitle": "✅ Lançamento automático concluído ¥{amount}",
+  "@autoBillingNotifySuccessSingleTitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "autoBillingNotifySuccessMultiTitle": "✅ Lançamento automático concluído ({count} itens)",
+  "@autoBillingNotifySuccessMultiTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "autoBillingNotifySuccessMultiBody": "Total ¥{amount}",
+  "@autoBillingNotifySuccessMultiBody": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "autoBillingNotifySuccessSingleBodyNote": "Observação: {note}",
+  "@autoBillingNotifySuccessSingleBodyNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "autoBillingNotifySuccessSingleBodyDefault": "Lançamento criado automaticamente",
+  "aiOcrNoLedger": "Livro não encontrado",
+  "aiOcrSuccess": "✅ Conta de {type} criada ¥{amount}",
+  "@aiOcrSuccess": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "aiOcrFailed": "Falha no reconhecimento: {error}",
+  "@aiOcrFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "aiOcrCreateFailed": "Falha ao criar a conta",
+  "aiTypeIncome": "Receita",
+  "aiTypeExpense": "Despesa",
+  "cloudSyncPageTitle": "Sincronização na nuvem",
+  "cloudSyncPageSubtitle": "Envio e download manual dos dados do livro",
+  "cloudTutorialTitle": "Primeiros passos",
+  "cloudTutorialIntro": "O BeeCount Cloud é um servidor de sincronização auto-hospedado que permite colaboração entre vários dispositivos em tempo real. O fluxo é simples:",
+  "cloudTutorialStep1Title": "Passo 1: implante ou entre em um servidor",
+  "cloudTutorialStep1Desc": "Hospede você mesmo com um único comando Docker (veja o guia Docker no README do GitHub). Ou entre em um servidor BeeCount Cloud já existente, administrado por um amigo/equipe.",
+  "cloudTutorialStep2Title": "Passo 2: obtenha uma conta",
+  "cloudTutorialStep2Desc": "O BeeCount Cloud NÃO oferece auto-cadastro (para evitar abusos em servidores públicos). Se você mesmo hospedar: na primeira inicialização do Docker, um email e senha de admin aleatórios são exibidos nos logs — use-os. Se for entrar no servidor de outra pessoa: peça ao admin para criar uma conta pra você em Web → Usuários.",
+  "cloudTutorialStep3Title": "Passo 3: entre e ative a sincronização",
+  "cloudTutorialStep3Desc": "No app, escolha BeeCount Cloud, informe a URL do servidor e a conta que você obteve no passo 2. O primeiro login envia todo o seu livro local; toda edição seguinte é enviada em tempo real.",
+  "cloudTutorialStep4Title": "Passo 4: entre em outros dispositivos",
+  "cloudTutorialStep4Desc": "Celular / tablet / Web — mesma conta, estado compartilhado instantâneo. As edições se propagam em segundos.",
+  "cloudTutorialTipTitle": "Dica",
+  "cloudTutorialTipDesc": "O painel Web fica na URL do servidor. Abra-o no navegador para gerenciar livros, membros e ver os registros.",
+  "cloudTutorialFeaturesTitle": "Recursos",
+  "cloudTutorialFeature1": "📱 Multi-dispositivo em tempo real: celular A + celular B + Web na mesma conta, sincronização em menos de um segundo",
+  "cloudTutorialFeature2": "🌐 Painel Web incluso: uma única imagem Docker traz servidor + Web, pronto pro navegador",
+  "cloudTutorialFeature3": "👥 Isolamento entre usuários: vários usuários em um servidor, dados totalmente separados",
+  "cloudTutorialFeature4": "🤝 Livros compartilhados: convide família/equipe para um mesmo livro com sincronização em segundos",
+  "cloudTutorialGotIt": "Entendi",
+  "cloudSyncHint": "Os downloads comparam as diferenças automaticamente para uma pré-visualização seletiva. Não é em tempo real — evite editar o mesmo livro em vários dispositivos ao mesmo tempo. O escopo da sincronização cobre os dados do livro (incluindo contas, categorias e tags associadas), sem incluir anexos.",
+  "cloudSyncNow": "Sincronizar agora",
+  "cloudSyncNowHint": "Envia as alterações locais e busca as atualizações remotas",
+  "cloudSyncInProgress": "Sincronizando...",
+  "cloudSyncComplete": "Sincronização concluída: {pushed} enviados, {pulled} recebidos",
+  "@cloudSyncComplete": {
+    "placeholders": {
+      "pushed": {
+        "type": "int"
+      },
+      "pulled": {
+        "type": "int"
+      }
+    }
+  },
+  "cloudAutoSyncHint": "Sincroniza automaticamente com a nuvem após alterações nos dados",
+  "dataManagement": "Gestão de dados",
+  "dataManagementDesc": "Importar, exportar, categorias e contas",
+  "dataManagementPageTitle": "Gestão de dados",
+  "dataManagementPageSubtitle": "Gerencie lançamentos e categorias",
+  "dataManagementAttachmentHint": "Ao restaurar dados, importe primeiro o pacote de anexos e depois os dados do livro (CSV ou sincronização na nuvem), para garantir que os anexos fiquem associados corretamente.",
+  "smartBilling": "Lançamento inteligente",
+  "smartBillingDesc": "Assistente de IA, reconhecimento inteligente, lançamento automático",
+  "smartBillingPageTitle": "Lançamento inteligente",
+  "smartBillingPageSubtitle": "Recursos de lançamento com IA e automação",
+  "smartBillingGuideHint": "Toque e segure o botão + na parte inferior central da tela inicial para acessar rapidamente esses recursos",
+  "smartBillingImageBilling": "Lançamento por imagem",
+  "smartBillingImageBillingDesc": "Selecione capturas de tela de pagamento na galeria para reconhecimento",
+  "smartBillingImageBillingGuide": "Toque e segure o botão + na parte inferior central da tela inicial e selecione 'Galeria' para usar o lançamento por imagem. É necessário ter o serviço de IA configurado em \"Eu → Configurações de IA\"; o modelo de visão vai extrair valor, estabelecimento, horário etc. da captura de tela.",
+  "smartBillingVisionAIRequired": "O reconhecimento de imagem exige um serviço de visão por IA. Configure-o antes em \"Eu → Configurações de IA\".",
+  "smartBillingCameraBilling": "Lançamento por câmera",
+  "smartBillingCameraBillingDesc": "Capture fotos de pagamento para reconhecimento",
+  "smartBillingCameraBillingGuide": "Toque e segure o botão + na parte inferior central da tela inicial e selecione 'Câmera' para usar o lançamento por câmera. É necessário ter o serviço de IA configurado em \"Eu → Configurações de IA\"; o modelo de visão vai extrair valor, estabelecimento, horário etc. da foto.",
+  "smartBillingVoiceBilling": "Lançamento por voz",
+  "smartBillingVoiceBillingDesc": "Lance rapidamente por comando de voz",
+  "smartBillingVoiceBillingGuide": "Toque e segure o botão + na parte inferior central da tela inicial e selecione 'Voz' para usar o lançamento por voz. O lançamento por voz exige IA para converter fala em texto e extrair as informações da conta.",
+  "smartBillingAIRequired": "O lançamento por voz exige um serviço de IA de fala. Configure-o antes em \"Eu → Configurações de IA\".",
+  "smartBillingAutoTags": "Associar tags automaticamente",
+  "smartBillingAutoTagsDesc": "Associa automaticamente as tags mais usadas com base na categoria",
+  "smartBillingAutoAttachment": "Adicionar anexo automaticamente",
+  "smartBillingAutoAttachmentDesc": "Adiciona automaticamente a imagem original como anexo no lançamento por foto",
+  "autoScreenshotBillingIosTitle": "Lançamento automático",
+  "autoScreenshotBillingIosDesc": "Reconhece pagamentos automaticamente via Atalhos",
+  "shareBilling": "Compartilhar para lançar",
+  "shareBillingDesc": "Compartilhe uma captura de tela de pagamento do Alipay/WeChat para lançá-la",
+  "shareBillingGuide": "Ao ver uma captura de tela de pagamento no Alipay, WeChat, Fotos etc., toque em \"Compartilhar\" e escolha \"BeeCount\" para reconhecer automaticamente o valor, o estabelecimento e o horário e criar o lançamento — sem precisar salvar a captura de tela antes.",
+  "shareBillingActionHint": "Reconhecido automaticamente em segundo plano após o compartilhamento — sem precisar abrir o BeeCount",
+  "automation": "Automação",
+  "automationDesc": "Lançamentos recorrentes e lembretes",
+  "automationPageTitle": "Automação",
+  "automationPageSubtitle": "Configurações de lançamentos recorrentes e lembretes",
+  "appearanceSettings": "Personalização",
+  "appearanceSettingsDesc": "Tema, fonte, idioma, bloqueio do app etc.",
+  "appearanceSettingsPageTitle": "Personalização",
+  "appearanceSettingsPageSubtitle": "Aparência, exibição, segurança e outras preferências do app",
+  "about": "Sobre",
+  "aboutDesc": "Informações de versão, ajuda e feedback",
+  "mineRateApp": "Avaliar o app",
+  "mineRateAppSubtitle": "Avalie-nos na App Store",
+  "aboutPageTitle": "Sobre",
+  "aboutPageSubtitle": "Informações e ajuda do app",
+  "aboutPageLoadingVersion": "Carregando versão...",
+  "aboutWebsite": "Site oficial",
+  "aboutGitHubRepo": "Repositório no GitHub",
+  "aboutXiaohongshu": "Xiaohongshu",
+  "aboutDouyin": "Douyin",
+  "aboutSupportDevelopment": "Apoiar o desenvolvimento",
+  "aboutSupportDevelopmentSubtitle": "Pague um café pra mim",
+  "aboutDeveloperStoryTitle": "Do desenvolvedor",
+  "aboutDeveloperStory": "Comecei a registrar meus gastos em 2015, quando ainda era estagiário, e mantenho esse hábito há mais de uma década. Preocupado com anúncios, assinaturas pagas, riscos de privacidade e apps que somem do dia pra noite, decidi criar o meu próprio — a princípio, uma ferramenta pequena só pra mim e minha família.\n\nEm setembro de 2025, o BeeCount lançou sua primeira versão. Sinceramente, eu não fazia ideia se alguém usaria. Mas aos poucos foram chegando retornos — alguém disse que finalmente encontrou um app de controle financeiro limpo, outros deram sugestões ótimas, e alguns deixaram avaliações de cinco estrelas em silêncio. Cada mensagem me lembrava que valia a pena continuar.\n\nO BeeCount não tem anúncios, não tem assinatura e é totalmente open source. Todos os seus dados ficam no seu aparelho e nunca são enviados a servidores de terceiros. Mas publicar e manter um app não é gratuito — contas de desenvolvedor, servidores e outros custos são hoje cobertos por doações da comunidade, e cada atualização, correção de bug e novo recurso é feito fora do meu trabalho principal.\n\nSe o BeeCount tem sido útil pra você, uma avaliação, um compartilhamento ou uma doação ajudam esse projeto pequeno a ir mais longe. Obrigado pela confiança.",
+  "aboutRelatedProducts": "Mais produtos",
+  "aboutBeeAssets": "BeeAssets",
+  "aboutBeeAssetsSubtitle": "Visualize todo o seu portfólio de ativos",
+  "aboutBeeAssetsIntro": "O BeeCount foca no fluxo de caixa do dia a dia; o BeeAssets é seu produto irmão, focado na visualização do portfólio de ativos: tendências de patrimônio líquido entre contas, classificação de imóveis/investimentos/criptomoedas, rentabilidade, tempo de posse e distribuição da carteira.",
+  "aboutBeeDNS": "BeeDNS",
+  "aboutBeeDNSSubtitle": "Ferramenta simples e eficiente de gestão de DNS",
+  "aboutBeeDNSIntro": "Tem domínios espalhados entre Cloudflare e Aliyun? O BeeDNS unifica tudo em um só lugar: edição de registros em lote, alternância entre A/AAAA, migração de resolução, gestão de subdomínios em massa — sem precisar alternar entre os painéis dos provedores.",
+  "productPromoAndroidTitle": "Solicitar acesso beta",
+  "productPromoAndroidMessage": "Este app ainda está em teste fechado no Google Play — apenas por convite.\n\nComo solicitar: envie um email com o endereço da sua conta Google (obrigatório) e um breve caso de uso (opcional). Responderemos em 1 a 3 dias e adicionaremos você à lista de teste beta.",
+  "productPromoOpenStore": "Abrir na App Store",
+  "productPromoTestFlight": "Beta no TestFlight",
+  "productPromoLearnMore": "Pro",
+  "productPromoEmailLabel": "Email para solicitação (toque para copiar)",
+  "productPromoCopiedToast": "Email copiado para a área de transferência",
+  "productPromoMailUnavailable": "Nenhum app de email detectado. O endereço foi copiado — cole em qualquer app de email para enviar.",
+  "productPromoEmailButton": "Enviar email",
+  "productPromoWebsiteButton": "Visitar site",
+  "productPromoEmailSubject": "Solicitação de acesso beta - {productName}",
+  "@productPromoEmailSubject": {
+    "placeholders": {
+      "productName": {
+        "type": "String"
+      }
+    }
+  },
+  "productPromoEmailBody": "Olá,\n\nGostaria de participar do teste fechado de {productName} no Google Play. O email da minha conta Google é:\n\n(preencha o email da sua conta Gmail/Google)\n\nObrigado!",
+  "@productPromoEmailBody": {
+    "placeholders": {
+      "productName": {
+        "type": "String"
+      }
+    }
+  },
+  "logCenterTitle": "Central de registros",
+  "logCenterSubtitle": "Veja os registros de execução do app",
+  "logCenterSearchHint": "Pesquisar conteúdo ou tags dos registros...",
+  "logCenterFilterLevel": "Nível do registro",
+  "logCenterFilterPlatform": "Plataforma",
+  "logCenterTotal": "Total",
+  "logCenterFiltered": "Filtrados",
+  "logCenterEmpty": "Nenhum registro",
+  "logCenterExport": "Exportar",
+  "logCenterClear": "Limpar",
+  "logCenterExportFailed": "Falha ao exportar",
+  "logCenterClearConfirmTitle": "Limpar registros",
+  "logCenterClearConfirmMessage": "Tem certeza de que deseja limpar todos os registros? Esta ação não pode ser desfeita.",
+  "logCenterCleared": "Registros limpos",
+  "logCenterCopied": "Copiado para a área de transferência",
+  "configImportExportTitle": "Importar/exportar configurações",
+  "configImportExportSubtitle": "Fazer backup e restaurar as configurações do app",
+  "configImportExportInfoTitle": "Descrição do recurso",
+  "configImportExportInfoMessage": "Este recurso é usado para exportar e importar as configurações do app, incluindo configurações de serviços de nuvem, de IA etc. O arquivo de configuração usa o formato YAML para facilitar a visualização e edição.\n\n⚠️ Os arquivos de configuração contêm informações sensíveis (como API keys, senhas etc.), mantenha-os em segurança.",
+  "configExportTitle": "Exportar configuração",
+  "configExportSubtitle": "Exporta a configuração atual para um arquivo YAML",
+  "configExportShareSubject": "Arquivo de configuração do BeeCount",
+  "configExportSuccess": "Configuração exportada com sucesso",
+  "configExportFailed": "Falha ao exportar configuração",
+  "configImportTitle": "Importar Configuração",
+  "configImportSubtitle": "Restaurar configuração a partir de arquivo YAML",
+  "configImportNoFilePath": "Nenhum arquivo selecionado",
+  "configImportConfirmTitle": "Confirmar Importação",
+  "configImportSuccess": "Configuração importada com sucesso",
+  "configImportFailed": "Falha ao importar configuração",
+  "configImportRestartTitle": "Reinício Necessário",
+  "configImportRestartMessage": "A configuração foi importada. Algumas definições terão efeito após reiniciar o app.",
+  "configImportExportIncludesTitle": "Configurações Incluídas",
+  "configExportSavedTo": "Salvo em: {path}",
+  "configExportViewContent": "Ver Conteúdo",
+  "configExportCopyContent": "Copiar Conteúdo",
+  "configExportContentCopied": "Copiado para a área de transferência",
+  "configExportReadFileFailed": "Falha ao ler o arquivo",
+  "@configExportSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "configIncludeLedgers": "Livros",
+  "configIncludeSupabase": "Configuração do serviço em nuvem Supabase",
+  "configIncludeWebdav": "Configuração do serviço em nuvem WebDAV",
+  "configIncludeS3": "Configuração do serviço em nuvem S3",
+  "configIncludeAI": "Configuração de reconhecimento inteligente por IA",
+  "configIncludeAISubtitle": "Provedores, vínculo de recursos, configurações de modelo, etc.",
+  "configIncludeAppSettings": "Configurações do app (idioma, aparência, lembretes, conta padrão, etc.)",
+  "configIncludeRecurringTransactions": "Lançamentos recorrentes",
+  "configIncludeAccounts": "Contas",
+  "configIncludeCategories": "Categorias",
+  "configIncludeTags": "Etiquetas",
+  "configIncludeBudgets": "Orçamentos",
+  "configIncludeOtherSettings": "Outras Configurações",
+  "configIncludeOtherSettingsSubtitle": "Inclui serviço em nuvem, configuração de IA, configurações do app, etc.",
+  "configExportSelectTitle": "Selecionar Conteúdo para Exportar",
+  "configExportPreviewTitle": "Pré-visualização da Exportação",
+  "configExportConfirmTitle": "Confirmar Exportação",
+  "configImportSelectTitle": "Selecionar Conteúdo para Importar",
+  "configImportPreviewTitle": "Pré-visualização da Importação",
+  "ledgersConflictTitle": "Conflito de Sincronização",
+  "ledgersConflictMessage": "Os dados do livro local e da nuvem estão inconsistentes, escolha uma ação:",
+  "ledgersConflictLocalInfo": "Local: {count} transações",
+  "@ledgersConflictLocalInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgersConflictRemoteInfo": "Nuvem: {count} transações",
+  "@ledgersConflictRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgersConflictRemoteUpdated": "Nuvem atualizada: {time}",
+  "@ledgersConflictRemoteUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersConflictLocalFingerprint": "Impressão digital local: {fp}",
+  "@ledgersConflictLocalFingerprint": {
+    "placeholders": {
+      "fp": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersConflictRemoteFingerprint": "Impressão digital da nuvem: {fp}",
+  "@ledgersConflictRemoteFingerprint": {
+    "placeholders": {
+      "fp": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgersConflictUpload": "Enviar para a Nuvem",
+  "ledgersConflictDownload": "Baixar para o Dispositivo",
+  "ledgersConflictUploading": "Enviando...",
+  "ledgersConflictDownloading": "Baixando...",
+  "ledgersConflictUploadSuccess": "Envio concluído com sucesso",
+  "ledgersConflictDownloadSuccess": "Download concluído, {inserted} transações mescladas",
+  "@ledgersConflictDownloadSuccess": {
+    "placeholders": {
+      "inserted": {
+        "type": "int"
+      }
+    }
+  },
+  "storageManagementTitle": "Gerenciamento de Armazenamento",
+  "storageManagementSubtitle": "Limpar cache para liberar espaço",
+  "storageAIModels": "Modelos de IA",
+  "storageAPKFiles": "Pacotes de Instalação",
+  "storageNoData": "Sem Dados",
+  "storageFiles": "arquivos",
+  "storageHint": "Toque nos itens para limpar os arquivos de cache correspondentes",
+  "storageClearConfirmTitle": "Confirmar Limpeza",
+  "storageClearAIModelsMessage": "Tem certeza de que deseja limpar todos os modelos de IA? Tamanho: {size}",
+  "@storageClearAIModelsMessage": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "storageClearAPKMessage": "Tem certeza de que deseja limpar todos os pacotes de instalação? Tamanho: {size}",
+  "@storageClearAPKMessage": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "storageClearSuccess": "Limpeza concluída com sucesso",
+  "accountNoTransactions": "Nenhuma transação",
+  "accountTransactionHistory": "Histórico de Transações",
+  "accountTotalBalance": "Patrimônio Líquido",
+  "accountCurrencyLocked": "Esta conta possui transações e não pode ter a moeda alterada",
+  "accountDefaultIncomeTitle": "Conta de Receita Padrão",
+  "accountDefaultExpenseTitle": "Conta de Despesa Padrão",
+  "accountDefaultNone": "Não Definido",
+  "commonNotice": "Aviso",
+  "transferTitle": "Transferência",
+  "transferIconSettings": "Configurações de Ícone de Transferência",
+  "transferIconSettingsDesc": "Personalize o ícone exibido para registros de transferência",
+  "transferFromAccount": "Conta de Origem",
+  "transferToAccount": "Conta de Destino",
+  "transferSelectAccount": "Selecionar Conta",
+  "transferCreateSuccess": "Transferência criada com sucesso",
+  "transferUpdateSuccess": "Transferência atualizada com sucesso",
+  "transferDifferentCurrencyError": "A transferência só é permitida entre contas da mesma moeda",
+  "transferToPrefix": "Para",
+  "transferFromPrefix": "De",
+  "welcomeCategoryModeTitle": "Escolha o Modo de Categorias",
+  "welcomeCategoryModeDescription": "Selecione a estrutura de categorias que atende às suas necessidades",
+  "welcomeCategoryModeFlatTitle": "Categorias Simples",
+  "welcomeCategoryModeFlatDescription": "Simples e rápido",
+  "welcomeCategoryModeFlatFeature1": "Estrutura simples, fácil de usar",
+  "welcomeCategoryModeFlatFeature2": "Perfeito para categorização simples",
+  "welcomeCategoryModeFlatFeature3": "Seleção rápida, controle eficiente",
+  "welcomeCategoryModeHierarchicalTitle": "Categorias Hierárquicas",
+  "welcomeCategoryModeHierarchicalDescription": "Gerenciamento detalhado",
+  "welcomeCategoryModeHierarchicalFeature1": "Suporta níveis de categorias pai e filha",
+  "welcomeCategoryModeHierarchicalFeature2": "Classificação de transações mais detalhada",
+  "welcomeCategoryModeHierarchicalFeature3": "Perfeito para gerenciamento detalhado",
+  "welcomeCategoryModeNoneTitle": "Sem Categorias",
+  "welcomeCategoryModeNoneDescription": "Totalmente personalizável, adicione conforme necessário",
+  "welcomeCategoryModeNoneFeature1": "Sem categorias predefinidas",
+  "welcomeCategoryModeNoneFeature2": "Crie categorias de acordo com suas necessidades",
+  "welcomeCategoryModeNoneFeature3": "Perfeito para necessidades de classificação personalizadas",
+  "welcomeExistingUserTitle": "Já é Usuário?",
+  "welcomeExistingUserButton": "Importar Configuração",
+  "welcomeImportingConfig": "Importando configuração...",
+  "welcomeImportSuccess": "Configuração importada com sucesso",
+  "welcomeImportFailed": "Falha na importação: {error}",
+  "@welcomeImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeImportNoFile": "Nenhum arquivo selecionado",
+  "welcomeImportAttachmentTitle": "Importar Anexos",
+  "welcomeImportAttachmentDesc": "Deseja importar também os arquivos de anexo?",
+  "welcomeImportAttachmentButton": "Selecionar Arquivo de Anexo",
+  "welcomeImportAttachmentSkip": "Pular",
+  "welcomeImportAttachmentSuccess": "Anexos importados: {imported}",
+  "@welcomeImportAttachmentSuccess": {
+    "placeholders": {
+      "imported": {
+        "type": "int"
+      }
+    }
+  },
+  "welcomeImportAttachmentFailed": "Falha ao importar anexos: {error}",
+  "@welcomeImportAttachmentFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeImportingAttachment": "Importando anexos...",
+  "iosVersionWarningTitle": "Requer iOS 16.0 ou superior",
+  "iosVersionWarningDesc": "O recurso de lançamento automático por captura de tela usa o framework App Intents, introduzido no iOS 16. Seu dispositivo está com uma versão mais antiga e não oferece suporte a este recurso.\n\nAtualize para o iOS 16 ou superior para usar este recurso.",
+  "aiChatTitle": "Assistente de IA",
+  "aiChatClearHistory": "Limpar Histórico",
+  "aiChatClearHistoryDialogTitle": "Limpar Histórico de Conversas",
+  "aiChatClearHistoryDialogContent": "Tem certeza de que deseja apagar todos os registros de conversa? Esta ação não pode ser desfeita.",
+  "aiChatInputHint": "ex.: Comprei um café por R$ 35",
+  "aiChatThinking": "Pensando...",
+  "aiChatHistoryCleared": "Histórico de conversas apagado",
+  "aiChatCopy": "Copiar",
+  "aiChatCopied": "Copiado para a área de transferência",
+  "aiChatDeleteMessageConfirm": "Tem certeza de que deseja excluir esta mensagem?",
+  "aiChatMessageDeleted": "Mensagem excluída",
+  "aiChatUndone": "Desfeito",
+  "aiChatUndoFailed": "Falha ao desfazer",
+  "aiChatTransactionNotFound": "Transação não encontrada",
+  "aiChatOpenEditorFailed": "Falha ao abrir o editor",
+  "aiChatSendFailed": "Falha ao enviar",
+  "billCardSuccess": "Lançamento Realizado com Sucesso",
+  "billCardUndone": "Desfeito",
+  "billCardAmount": "💰 Valor",
+  "billCardCategory": "🏷️ Categoria",
+  "billCardTime": "📅 Data",
+  "billCardNote": "📝 Observação",
+  "billCardAccount": "💳 Conta",
+  "billCardUndo": "Desfazer",
+  "billCardEdit": "Editar",
+  "donationTitle": "Doação",
+  "donationSubtitle": "Pague um café pra mim",
+  "donationEntrySubtitle": "Apoie o desenvolvimento contínuo",
+  "donationDescription": "Descrição",
+  "donationDescriptionDetail": "Obrigado por usar o BeeCount! Se este app te ajuda, sinta-se à vontade para pagar um café ao desenvolvedor como incentivo. Seu apoio é minha motivação pra continuar melhorando.",
+  "donationNoFeatures": "Observação: doações não desbloqueiam nenhum recurso. Todos os recursos continuam completamente gratuitos.",
+  "donationNoProducts": "Nenhum produto disponível",
+  "donationThankYouTitle": "Obrigado!",
+  "donationThankYouMessage": "Obrigado por adquirir {productName}! Seu apoio significa muito para mim. Vou continuar melhorando o BeeCount para torná-lo ainda melhor!",
+  "@donationThankYouMessage": {
+    "placeholders": {
+      "productName": {
+        "type": "String"
+      }
+    }
+  },
+  "aiQuickCommandFinancialHealthTitle": "Análise de Saúde Financeira",
+  "aiQuickCommandFinancialHealthDesc": "Analisa o equilíbrio entre receitas e despesas e a taxa de poupança",
+  "aiQuickCommandFinancialHealthPrompt": "Por favor, analise minha saúde financeira com base nos seguintes dados:\n\n[monthlyStats]\n\n[recentTrends]\n\nForneça uma análise e sugestões profissionais sob a perspectiva do equilíbrio entre receitas e despesas, taxa de poupança e tendências de gastos. Responda em português.",
+  "aiQuickCommandMonthlyExpenseTitle": "Resumo de Despesas Mensais",
+  "aiQuickCommandMonthlyExpenseDesc": "Análise e recomendações de despesas mensais",
+  "aiQuickCommandMonthlyExpensePrompt": "Por favor, resuma minhas despesas mensais com base nos seguintes dados:\n\n[monthlyStats]\n\n[categoryStats]\n\nAnalise quais categorias representam a maior proporção e forneça sugestões de otimização. Responda em português.",
+  "aiQuickCommandCategoryAnalysisTitle": "Análise por Categoria",
+  "aiQuickCommandCategoryAnalysisDesc": "Analisa a distribuição de gastos por categoria",
+  "aiQuickCommandCategoryAnalysisPrompt": "Por favor, analise meus gastos por categoria com base nos seguintes dados:\n\n[categoryStats]\n\nAponte se há proporções de gastos desproporcionais e forneça sugestões de otimização. Responda em português.",
+  "aiQuickCommandBudgetPlanningTitle": "Planejamento de Orçamento",
+  "aiQuickCommandBudgetPlanningDesc": "Recomendações inteligentes de orçamento",
+  "aiQuickCommandBudgetPlanningPrompt": "Por favor, me ajude a planejar um orçamento razoável com base nos seguintes dados:\n\n[monthlyStats]\n\n[recentTrends]\n\nForneça valores de orçamento específicos e sugestões de execução para cada categoria. Responda em português.",
+  "aiQuickCommandAbnormalExpenseTitle": "Alerta de Despesa Anormal",
+  "aiQuickCommandAbnormalExpenseDesc": "Identifica gastos incomuns",
+  "aiQuickCommandAbnormalExpensePrompt": "Por favor, verifique se há despesas anormais com base nos seguintes dados:\n\n[recentTransactions]\n\n[monthlyStats]\n\nIdentifique despesas significativamente maiores que o habitual e forneça uma análise. Responda em português.",
+  "aiQuickCommandSavingTipsTitle": "Dicas de Economia",
+  "aiQuickCommandSavingTipsDesc": "Sugestões personalizadas para economizar",
+  "aiQuickCommandSavingTipsPrompt": "Por favor, forneça sugestões práticas de economia com base nos seguintes dados:\n\n[categoryStats]\n\n[recentTrends]\n\nDê de 3 a 5 sugestões específicas e práticas. Responda em português.",
+  "billCardUnknownLedger": "Livro Desconhecido",
+  "aiPromptEditTitle": "Editor de Prompt",
+  "aiPromptEditSubtitle": "Personalize o prompt de reconhecimento de contas por IA",
+  "aiPromptAdvancedSettings": "Configurações Avançadas",
+  "aiAdvancedSettingsDesc": "Seleção de modelo, estratégia, modelo local, prompt",
+  "aiPromptEditEntry": "Editor de Prompt",
+  "aiPromptEditEntryDesc": "Personalize o prompt de reconhecimento de contas por IA, compartilhável com outras pessoas",
+  "aiPromptVariables": "Variáveis",
+  "aiPromptVariablesHint": "Toque para ver as variáveis disponíveis",
+  "aiPromptContent": "Conteúdo do Prompt",
+  "aiPromptUnsaved": "Não Salvo",
+  "aiPromptInputHint": "Digite o prompt...",
+  "aiPromptPreview": "Pré-visualizar",
+  "aiPromptSave": "Salvar",
+  "aiPromptSaved": "Prompt salvo",
+  "aiPromptResetDefault": "Restaurar Padrão",
+  "aiPromptResetConfirmTitle": "Restaurar Padrão",
+  "aiPromptResetConfirmMessage": "Tem certeza de que deseja restaurar o prompt padrão? Seu conteúdo personalizado será perdido.",
+  "aiPromptPasted": "Colado",
+  "aiPromptPreviewTitle": "Pré-visualização do Prompt",
+  "aiPromptPreviewNote": "A pré-visualização usa dados de exemplo para as variáveis. Os dados reais serão usados em tempo de execução.",
+  "aiPromptVarInputSource": "Descrição da fonte de entrada, ex.: \"A partir do seguinte texto de conta de pagamento\"",
+  "aiPromptVarCurrentTime": "Data e hora atuais, ex.: \"2025-01-15 14:30\"",
+  "aiPromptVarCurrentDate": "Data atual, ex.: \"2025-01-15\"",
+  "aiPromptVarOcrText": "Conteúdo de texto digitado pelo usuário",
+  "aiPromptVarCategories": "Lista de categorias de despesa e receita",
+  "aiPromptVarAccounts": "Lista de contas do usuário (pode estar vazia)",
+  "aiModelTitle": "Modelo de Raciocínio de Texto",
+  "aiVisionModelTitle": "Modelo de Visão",
+  "aiModelFast": "Mais Rápido",
+  "aiModelAccurate": "Mais Preciso",
+  "aiModelSwitched": "Alterado para {modelName}",
+  "@aiModelSwitched": {
+    "placeholders": {
+      "modelName": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCustomBaseUrlHelper": "URL padrão da API de chat completion, ex.: https://api.example.com/v1",
+  "aiTextModelTitle": "Modelo de Texto",
+  "aiAudioModelTitle": "Modelo de Áudio",
+  "tagManageTitle": "Etiquetas",
+  "tagManageSubtitle": "Gerenciar etiquetas de transações",
+  "tagManageEmpty": "Nenhuma etiqueta ainda",
+  "tagManageEmptyHint": "Toque em + para adicionar uma etiqueta",
+  "tagManageGenerateDefault": "Gerar Etiquetas Padrão",
+  "tagManageGenerateDefaultConfirm": "Gerar etiquetas padrão? Etiquetas existentes com o mesmo nome não serão substituídas.",
+  "tagManageGenerateDefaultSuccess": "Etiquetas padrão geradas",
+  "tagEditTitle": "Editar Etiqueta",
+  "tagAddTitle": "Adicionar Etiqueta",
+  "tagNameLabel": "Nome da Etiqueta",
+  "tagNameHint": "Digite o nome da etiqueta",
+  "tagNameRequired": "O nome da etiqueta é obrigatório",
+  "tagNameDuplicate": "Este nome de etiqueta já existe",
+  "tagColorLabel": "Cor da Etiqueta",
+  "tagCreateSuccess": "Etiqueta criada",
+  "tagUpdateSuccess": "Etiqueta atualizada",
+  "tagDeleteConfirmTitle": "Excluir Etiqueta",
+  "tagDeleteConfirmMessage": "Excluir a etiqueta \"{name}\"? Isso não afetará as transações associadas.",
+  "@tagDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tagDeleteSuccess": "Etiqueta excluída",
+  "tagSelectTitle": "Selecionar Etiquetas",
+  "tagSelectHint": "Seleção múltipla",
+  "tagSelectCreateNew": "Criar Nova Etiqueta",
+  "tagSelectRecentlyUsed": "Usadas Recentemente",
+  "tagSelectAllTags": "Todas as Etiquetas",
+  "tagTransactionCount": "{count} transações",
+  "@tagTransactionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tagDetailTitle": "Detalhes da Etiqueta",
+  "tagDetailTotalCount": "Transações",
+  "tagDetailTotalExpense": "Total de Despesas",
+  "tagDetailTotalIncome": "Total de Receitas",
+  "tagDetailTransactionList": "Transações Relacionadas",
+  "tagDetailNoTransactions": "Nenhuma transação relacionada",
+  "tagDetailNoTransactionsHint": "Transações com esta etiqueta aparecerão aqui",
+  "tagNotFound": "Etiqueta não encontrada",
+  "tagDefaultMeituan": "Meituan",
+  "tagDefaultEleme": "Eleme",
+  "tagDefaultTaobao": "Taobao",
+  "tagDefaultJD": "JD.com",
+  "tagDefaultPDD": "Pinduoduo",
+  "tagDefaultStarbucks": "Starbucks",
+  "tagDefaultLuckin": "Luckin Coffee",
+  "tagDefaultMcDonalds": "McDonald's",
+  "tagDefaultKFC": "KFC",
+  "tagDefaultHema": "Hema",
+  "tagDefaultSams": "Sam's Club",
+  "tagDefaultCostco": "Costco",
+  "tagDefaultBusinessTrip": "Viagem a Trabalho",
+  "tagDefaultTravel": "Viagem",
+  "tagDefaultDining": "Restaurante",
+  "tagDefaultOnlineShopping": "Compras Online",
+  "tagDefaultDaily": "Dia a Dia",
+  "tagDefaultReimbursement": "Reembolsável",
+  "tagDefaultRefundable": "Estornável",
+  "tagDefaultRefunded": "Estornado",
+  "tagDefaultVoiceBilling": "Voz",
+  "tagDefaultImageBilling": "Imagem",
+  "tagDefaultCameraBilling": "Câmera",
+  "tagDefaultAiBilling": "IA",
+  "tagShare": "Compartilhar Etiquetas",
+  "tagImport": "Importar Etiquetas",
+  "tagClearUnused": "Limpar Não Utilizadas",
+  "tagShareSuccess": "Salvo em {path}",
+  "@tagShareSuccess": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "tagShareSubject": "Configuração de Etiquetas do BeeCount",
+  "tagShareFailed": "Falha ao compartilhar",
+  "tagImportInvalidFile": "Selecione um arquivo YAML",
+  "tagImportNoTags": "Nenhuma etiqueta encontrada no arquivo",
+  "tagImportModeTitle": "Selecionar Modo de Importação",
+  "tagImportModeMerge": "Mesclar",
+  "tagImportModeMergeDesc": "Manter etiquetas existentes, adicionar novas",
+  "tagImportModeOverwrite": "Substituir",
+  "tagImportModeOverwriteDesc": "Limpar etiquetas não utilizadas antes de importar",
+  "tagImportSuccess": "Importação concluída com sucesso",
+  "tagImportFailed": "Falha na importação",
+  "tagClearUnusedEmpty": "Nenhuma etiqueta não utilizada",
+  "tagClearUnusedTitle": "Limpar Etiquetas Não Utilizadas",
+  "tagClearUnusedMessage": "Excluir {count} etiquetas não utilizadas?",
+  "@tagClearUnusedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tagClearUnusedSuccess": "{count} etiquetas excluídas",
+  "@tagClearUnusedSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tagClearUnusedFailed": "Falha ao limpar",
+  "homeSwitchLedger": "Selecionar Livro",
+  "homeManageLedgers": "Gerenciar Livros",
+  "budgetTitle": "Orçamento",
+  "budgetShowOnHome": "Mostrar orçamento na tela inicial",
+  "budgetEmptyHint": "Nenhum orçamento definido ainda",
+  "budgetAddTotal": "Adicionar Orçamento Total",
+  "budgetMonthlyBudget": "Orçamento Mensal",
+  "budgetUsed": "Usado",
+  "budgetRemaining": "Restante",
+  "budgetDaysRemaining": "{days} dias restantes",
+  "@budgetDaysRemaining": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetDailyAvailable": "Disponível por dia {amount}",
+  "@budgetDailyAvailable": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetCategoryBudgets": "Orçamentos por Categoria",
+  "budgetEditTitle": "Editar Orçamento",
+  "budgetAddTitle": "Adicionar Orçamento",
+  "budgetTypeTotalLabel": "Orçamento Total",
+  "budgetTypeCategoryLabel": "Orçamento por Categoria",
+  "budgetAmountLabel": "Valor do Orçamento",
+  "budgetAmountHint": "Digite o valor do orçamento",
+  "budgetCategoryLabel": "Selecionar Categoria",
+  "budgetCategoryHint": "Selecione a categoria do orçamento",
+  "budgetStartDayLabel": "Dia de Início",
+  "budgetPeriodLabel": "Período",
+  "budgetSaveSuccess": "Orçamento salvo",
+  "budgetDeleteConfirm": "Excluir este orçamento?",
+  "budgetDeleteSuccess": "Orçamento excluído",
+  "attachmentAdd": "Adicionar Imagem",
+  "attachmentTakePhoto": "Tirar Foto",
+  "attachmentChooseFromGallery": "Escolher da Galeria",
+  "attachmentMaxReached": "Número máximo de anexos atingido",
+  "attachmentDeleteConfirm": "Excluir este anexo?",
+  "attachmentCount": "{count} imagens",
+  "@attachmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonDeleted": "Excluído",
+  "attachmentExportTitle": "Exportar Anexos",
+  "attachmentExportSubtitle": "Exportar todos os anexos como um arquivo compactado",
+  "attachmentImportTitle": "Importar Anexos",
+  "attachmentImportSubtitle": "Importar anexos de um arquivo compactado",
+  "attachmentExportEmpty": "Nenhum anexo para exportar",
+  "attachmentExportProgress": "Exportando anexos ({current}/{total})",
+  "@attachmentExportProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "attachmentExportProgressDetail": "Exportando {attachmentCount} anexo(s) + {iconCount} ícone(s) ({current}/{total})",
+  "@attachmentExportProgressDetail": {
+    "placeholders": {
+      "attachmentCount": {
+        "type": "int"
+      },
+      "iconCount": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "attachmentExportSuccess": "Anexos exportados com sucesso",
+  "attachmentExportSavedTo": "Salvo em: {path}",
+  "@attachmentExportSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "attachmentImportConflictStrategy": "Estratégia de Conflito",
+  "attachmentImportConflictSkip": "Ignorar anexos existentes",
+  "attachmentImportConflictOverwrite": "Substituir anexos existentes",
+  "attachmentImportProgress": "Importando anexos ({current}/{total})",
+  "@attachmentImportProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "attachmentImportResult": "Importados {imported}, Ignorados {skipped}, Substituídos {overwritten}, Falhas {failed}",
+  "@attachmentImportResult": {
+    "placeholders": {
+      "imported": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      },
+      "overwritten": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "attachmentImportFailed": "Falha ao importar anexos",
+  "attachmentArchiveInfo": "{count} anexos, exportado em {date}",
+  "@attachmentArchiveInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "attachmentStartImport": "Iniciar Importação",
+  "attachmentPreview": "Pré-visualizar Anexos",
+  "attachmentPreviewSubtitle": "{count} imagens no total",
+  "@attachmentPreviewSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "attachmentPreviewEmpty": "Nenhum anexo",
+  "attachmentExportPreviewTitle": "Pré-visualização da Exportação",
+  "attachmentImportPreviewTitle": "Pré-visualização da Importação",
+  "shortcutsGuide": "Atalhos",
+  "shortcutsGuideDesc": "Acesso rápido a voz, lançamento por câmera, etc.",
+  "shortcutsIntroTitle": "Lançamento Rápido",
+  "shortcutsIntroDesc": "Use atalhos para abrir diretamente o lançamento por voz, por câmera e outros recursos a partir da tela inicial, sem precisar abrir o app primeiro.",
+  "availableShortcuts": "Atalhos Disponíveis",
+  "shortcutVoice": "Lançamento por Voz",
+  "shortcutVoiceDesc": "Registre contas rapidamente por voz",
+  "shortcutImage": "Lançamento por Imagem",
+  "shortcutImageDesc": "Reconhecer contas a partir de imagens da galeria",
+  "shortcutCamera": "Lançamento por Câmera",
+  "shortcutCameraDesc": "Tire fotos para reconhecer contas",
+  "shortcutNewExpense": "Despesa Rápida",
+  "shortcutNewExpenseDesc": "Abrir diretamente a página de lançamento de despesa",
+  "shortcutNewIncome": "Receita Rápida",
+  "shortcutNewIncomeDesc": "Abrir diretamente a página de lançamento de receita",
+  "shortcutNewTransfer": "Transferência Rápida",
+  "shortcutNewTransferDesc": "Abrir diretamente a página de lançamento de transferência",
+  "shortcutUrlCopied": "URL copiada para a área de transferência",
+  "howToAddShortcut": "Como Adicionar Atalhos",
+  "iosShortcutStep1": "Abra o app Atalhos",
+  "iosShortcutStep2": "Toque em + no canto superior direito para criar um novo atalho",
+  "iosShortcutStep3": "Adicione a ação \"Abrir URL\"",
+  "iosShortcutStep4": "Cole a URL copiada (ex.: beecount://voice)",
+  "iosShortcutStep5": "Salve e adicione à tela inicial",
+  "androidShortcutStep1": "Baixe um app criador de atalhos (ex.: Shortcut Maker)",
+  "androidShortcutStep2": "Selecione \"URL Shortcut\"",
+  "androidShortcutStep3": "Cole a URL copiada (ex.: beecount://voice)",
+  "androidShortcutStep4": "Defina o ícone e o nome, depois adicione à tela inicial",
+  "shortcutsTip": "Dicas",
+  "shortcutsTipDesc": "Os atalhos exigem os recursos de IA. Verifique se a IA está ativada e se a API Key está configurada.",
+  "shortcutOpenShortcutsApp": "Abrir App Atalhos",
+  "shortcutAutoAdd": "API de Lançamento Automático",
+  "shortcutAutoAddDesc": "Crie lançamentos automaticamente via parâmetros de URL. Funciona muito bem com Atalhos e ferramentas de automação.",
+  "shortcutAutoAddExample": "URL de exemplo:",
+  "shortcutAutoAddParams": "Parâmetros suportados:",
+  "shortcutParamAmount": "Valor (obrigatório)",
+  "shortcutParamType": "Tipo: despesa / receita / transferência",
+  "shortcutParamCategory": "Nome da categoria (deve corresponder a uma categoria existente)",
+  "shortcutParamNote": "Observação",
+  "shortcutParamAccount": "Nome da conta (deve corresponder a uma conta existente)",
+  "shortcutParamTags": "Tags (separadas por vírgula)",
+  "shortcutParamDate": "Data (formato ISO, ex.: 2024-01-15)",
+  "quickActionImage": "Lançar por foto",
+  "quickActionCamera": "Lançar pela câmera",
+  "quickActionVoice": "Lançar por voz",
+  "quickActionAiChat": "Assistente de IA",
+  "calendarTitle": "Calendário",
+  "calendarToday": "Hoje",
+  "calendarNoTransactions": "Nenhuma transação",
+  "calendarAddTransaction": "Adicionar lançamento neste dia",
+  "calendarAddTransactionTooltip": "Adicionar um registro no dia selecionado",
+  "commonUncategorized": "Sem categoria",
+  "commonSaved": "Salvo",
+  "aiProviderManageTitle": "Gerenciar provedores",
+  "aiProviderManageSubtitle": "Gerencie os provedores de serviço de IA",
+  "aiProviderAdd": "Adicionar provedor",
+  "aiProviderBuiltIn": "Integrado",
+  "aiProviderEmpty": "Nenhum provedor configurado",
+  "aiProviderNoApiKey": "API Key não configurada",
+  "aiProviderTapToEdit": "Toque para editar",
+  "aiProviderDeleteTitle": "Excluir provedor",
+  "aiProviderDeleteConfirm": "Excluir o provedor \"{name}\"? As funcionalidades que usam esse provedor voltarão ao padrão.",
+  "@aiProviderDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "aiProviderDeleted": "Provedor excluído",
+  "aiProviderEditTitle": "Editar provedor",
+  "aiProviderAddTitle": "Adicionar provedor",
+  "aiProviderBasicInfo": "Informações básicas",
+  "aiProviderName": "Nome do provedor",
+  "aiProviderNameHint": "ex.: SiliconFlow, DeepSeek",
+  "aiProviderNameRequired": "Informe o nome do provedor",
+  "aiProviderBaseUrlRequired": "Informe a Base URL",
+  "aiProviderModels": "Configuração de modelos",
+  "aiProviderModelsHint": "Funcionalidades sem modelo configurado não podem usar este provedor",
+  "aiCapabilityText": "Texto",
+  "aiCapabilityVision": "Visão",
+  "aiCapabilitySpeech": "Voz",
+  "aiCapabilitySelectTitle": "Vínculo de funcionalidades",
+  "aiCapabilitySelectSubtitle": "Selecione o provedor para cada funcionalidade de IA",
+  "aiCapabilityTextChat": "Chat de texto",
+  "aiCapabilityTextChatDesc": "Para chat com IA e extração de lançamentos por texto",
+  "aiCapabilityImageUnderstand": "Compreensão de imagem",
+  "aiCapabilityImageUnderstandDesc": "Para reconhecimento de lançamentos por imagem",
+  "aiCapabilitySpeechToText": "Voz para texto",
+  "aiCapabilitySpeechToTextDesc": "Para lançamentos por voz",
+  "aiProviderTestRun": "Toque para testar",
+  "aiProviderTestRunning": "Testando...",
+  "aiProviderTestSuccess": "Teste aprovado",
+  "aiProviderTestFailed": "Teste falhou",
+  "aiProviderTestAll": "Testar todos",
+  "aiProviderTestAllRetry": "Testar novamente",
+  "aiModelInputHelper": "Deixe em branco para usar o modelo padrão",
+  "syncPreviewTitle": "Pré-visualização da sincronização",
+  "syncPreviewSelectAll": "Selecionar tudo",
+  "syncPreviewDeselectAll": "Desmarcar tudo",
+  "syncPreviewAdded": "Adicionados",
+  "syncPreviewModified": "Modificados",
+  "syncPreviewDeleted": "Excluídos",
+  "syncPreviewAddedCount": "{count} adicionados",
+  "@syncPreviewAddedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncPreviewModifiedCount": "{count} modificados",
+  "@syncPreviewModifiedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncPreviewDeletedCount": "{count} excluídos",
+  "@syncPreviewDeletedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncPreviewApply": "Aplicar {count} itens",
+  "@syncPreviewApply": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncPreviewEmpty": "Os dados da nuvem já correspondem aos locais, sincronização não necessária",
+  "syncPreviewOldFormat": "Formato antigo na nuvem, é necessária substituição completa",
+  "syncPreviewOldFormatMessage": "Os dados da nuvem não contêm IDs de sincronização. Os dados locais serão apagados e reimportados da nuvem.",
+  "syncPreviewApplied": "{count} alterações aplicadas",
+  "@syncPreviewApplied": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cloudSyncGuideTitle": "Guia de sincronização em nuvem",
+  "cloudSyncGuideGotIt": "Entendi",
+  "cloudSyncGuideHowItWorks": "Como funciona",
+  "cloudSyncGuideHowItem1": "Enviar: empacota todos os dados do livro atual e envia para a nuvem, substituindo os dados antigos na nuvem",
+  "cloudSyncGuideHowItem2": "Baixar: busca os dados da nuvem e compara com os registros locais um a um — você escolhe quais alterações aplicar",
+  "cloudSyncGuideHowItem3": "A nuvem sempre armazena apenas o último envio, sem histórico de versões",
+  "cloudSyncGuideCorrect": "Uso correto",
+  "cloudSyncGuideCorrectItem1": "Edite em um dispositivo por vez e envie ao terminar",
+  "cloudSyncGuideCorrectItem2": "Baixe no novo dispositivo antes de começar a editar",
+  "cloudSyncGuideCorrectItem3": "Revise a pré-visualização com atenção antes de aplicar as alterações",
+  "cloudSyncGuideCorrectItem4": "Siga o padrão: editar → enviar → trocar de dispositivo → baixar → editar",
+  "cloudSyncGuideWrong": "O que evitar",
+  "cloudSyncGuideWrongItem1": "Editar o mesmo livro em dois dispositivos ao mesmo tempo — o envio mais recente sobrescreve o anterior",
+  "cloudSyncGuideWrongItem2": "Baixar logo após enviar — os serviços de nuvem podem levar de segundos a minutos para sincronizar, aguarde um pouco",
+  "cloudSyncGuideWrongItem3": "Ficar muito tempo sem sincronizar e depois baixar muitas alterações de uma vez — fácil perder diferenças importantes",
+  "cloudSyncGuideLimitations": "Limitações conhecidas",
+  "cloudSyncGuideLimitItem1": "Não é em tempo real: exige tocar manualmente em enviar e baixar",
+  "cloudSyncGuideLimitItem2": "Sem mesclagem de conflitos: não mescla automaticamente edições dos dois lados — o último envio prevalece",
+  "cloudSyncGuideLimitItem3": "Atraso do serviço de nuvem: arquivos enviados podem levar de segundos a minutos até que outros dispositivos consigam lê-los, dependendo do provedor",
+  "cloudSyncGuideLimitItem4": "Não inclui anexos: os anexos de imagem das transações não são sincronizados — exporte-os separadamente em Gerenciamento de Dados",
+  "mineMultiDeviceSyncTitle": "Sincronização multidispositivo",
+  "mineMultiDeviceSyncSubtitle": "Verifica automaticamente alterações na nuvem ao abrir a página",
+  "appLockTitle": "Bloqueio do app",
+  "appLockDesc": "PIN e biometria para proteger sua privacidade",
+  "appLockEnable": "Ativar bloqueio do app",
+  "appLockEnableDesc": "Exigir autenticação ao abrir e retomar o app",
+  "appLockSetPin": "Definir PIN",
+  "appLockChangePin": "Alterar PIN",
+  "appLockVerifyPin": "Verificar PIN",
+  "appLockVerifyCurrentPin": "Digite o PIN atual",
+  "appLockSetNewPin": "Definir novo PIN",
+  "appLockConfirmPin": "Confirmar PIN",
+  "appLockEnterPin": "Digite o PIN",
+  "appLockPinSetSuccess": "PIN definido com sucesso",
+  "appLockDisabled": "Bloqueio do app desativado",
+  "appLockBiometric": "Desbloqueio biométrico",
+  "appLockBiometricDesc": "Use Face ID ou digital para desbloquear",
+  "appLockBiometricReason": "Verifique sua identidade para desbloquear o BeeCount",
+  "appLockTimeout": "Tempo para bloqueio automático",
+  "appLockTimeoutImmediate": "Imediatamente",
+  "appLockTimeout1Min": "Após 1 minuto",
+  "appLockTimeout5Min": "Após 5 minutos",
+  "appLockTimeout15Min": "Após 15 minutos",
+  "creditCardSettings": "Configurações do cartão de crédito",
+  "accountTabValuation": "Avaliação",
+  "creditCardDaysRequired": "Selecione as datas de fechamento e vencimento",
+  "creditLimit": "Limite de crédito",
+  "creditLimitHint": "Informe o limite de crédito",
+  "billingDay": "Dia de fechamento",
+  "paymentDueDay": "Dia de vencimento",
+  "creditUsed": "Usado",
+  "creditAvailable": "Disponível",
+  "creditCardOwed": "Devido",
+  "dayOfMonth": "Dia {day} de cada mês",
+  "@dayOfMonth": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "creditCardReminderTitle": "Lembrete de pagamento",
+  "creditCardReminderDesc": "Lembrar antes do vencimento",
+  "creditCardReminderDaysBefore": "{days} dias antes",
+  "@creditCardReminderDaysBefore": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "creditCardInitialBalanceHint": "Dívida atual (número negativo)",
+  "selectDay": "Selecionar dia",
+  "accountBankName": "Banco",
+  "accountBankNameHint": "ex.: Banco do Brasil",
+  "accountCardLastFour": "Últimos 4 dígitos",
+  "accountCardLastFourHint": "ex.: 1234",
+  "accountNote": "Observação",
+  "accountNoteHint": "Adicionar uma observação",
+  "accountMetaInfo": "Informações da conta",
+  "accountBalanceTrend": "Tendência do saldo",
+  "accountCategoryBreakdown": "Detalhamento por categoria",
+  "accountCategoryExpense": "Despesa",
+  "accountCategoryIncome": "Receita",
+  "accountNoMoreData": "Não há mais dados",
+  "totalAssets": "Ativos totais",
+  "totalLiabilities": "Passivos totais",
+  "assetAccounts": "Contas de ativos",
+  "liabilityAccounts": "Contas de passivos",
+  "assetComposition": "Composição de ativos",
+  "accountTypeInvestment": "Investimento",
+  "accountTypeLoan": "Empréstimo",
+  "accountTypeReceivable": "A receber",
+  "accountTypeRealEstate": "Imóvel",
+  "accountTypeVehicle": "Veículo",
+  "accountTypeInsurance": "Seguro",
+  "accountTypeSocialFund": "Fundo social",
+  "valuationCurrentValue": "Valor atual",
+  "valuationCurrentDebt": "Dívida atual",
+  "valuationUpdateValue": "Atualizar valor",
+  "valuationUpdateDebt": "Atualizar dívida",
+  "valuationLastUpdated": "Última atualização: {date}",
+  "@valuationLastUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "valuationAccountHint": "Informe o valor atual",
+  "valuationDebtHint": "Informe o valor atual da dívida",
+  "accountGroupTradable": "Contas do dia a dia",
+  "accountGroupValuation": "Ativos/Passivos",
+  "adjustmentTransaction": "Ajuste de avaliação",
+  "creditCardBillingInfo": "Fecha dia {billingDay} · Vence dia {paymentDueDay}",
+  "@creditCardBillingInfo": {
+    "placeholders": {
+      "billingDay": {
+        "type": "int"
+      },
+      "paymentDueDay": {
+        "type": "int"
+      }
+    }
+  },
+  "creditCardDaysUntilPayment": "{days} dias até o vencimento",
+  "@creditCardDaysUntilPayment": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "creditCardPaymentDueToday": "Pagamento vence hoje",
+  "creditCardQuickRepay": "Registrar pagamento",
+  "budgetManagement": "Orçamento",
+  "budgetManagementDesc": "Defina um orçamento mensal e controle os gastos",
+  "budgetSetupHint": "Defina um orçamento para controlar os gastos mensais",
+  "budgetSetupAction": "Configurar",
+  "cloudCollabDevicesPageTitle": "Sessões de dispositivos",
+  "cloudCollabDevicesPageSubtitle": "Gerencie os dispositivos ativos",
+  "cloudCollabDevicesViewAllSessions": "Mostrar todas as sessões",
+  "cloudCollabDevicesViewModeHint": "A visualização padrão mostra dispositivos únicos ativos nos últimos 30 dias.",
+  "cloudCollabNoDevices": "Nenhum dispositivo ativo",
+  "cloudCollabUnknownDeviceName": "Dispositivo desconhecido",
+  "cloudCollabDeviceCurrentTag": "Dispositivo atual",
+  "cloudCollabCurrentDeviceCannotRevoke": "O dispositivo atual não pode ser revogado.",
+  "cloudCollabDeviceAppVersion": "App: {version}",
+  "@cloudCollabDeviceAppVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceOsVersion": "SO: {version}",
+  "@cloudCollabDeviceOsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceModel": "Modelo: {model}",
+  "@cloudCollabDeviceModel": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceLastIp": "IP: {ip}",
+  "@cloudCollabDeviceLastIp": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceSessionCount": "Sessões: {count}",
+  "@cloudCollabDeviceSessionCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceLastSeen": "Visto por último: {time}",
+  "@cloudCollabDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceCreatedAt": "Criado em: {time}",
+  "@cloudCollabDeviceCreatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceRevokeTitle": "Revogar dispositivo",
+  "cloudCollabDeviceRevokeMessage": "Revogar o dispositivo {name} ({id})?",
+  "@cloudCollabDeviceRevokeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceRevokeMultipleMessage": "Revogar {count} sessões do dispositivo {name}?",
+  "@cloudCollabDeviceRevokeMultipleMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudCollabDeviceRevoked": "Dispositivo revogado",
+  "cloudCollabUnavailableMessage": "A sincronização em nuvem não está disponível.",
+  "cloudCollabScopeDeniedHint": "O servidor não tem ALLOW_APP_RW_SCOPES ativado, então as sessões de dispositivos não estão disponíveis.",
+  "cloudCollabScopeDeniedAction": "Defina ALLOW_APP_RW_SCOPES=true no .env do servidor, reinicie o serviço e entre novamente.",
+  "syncHealthTitle": "Status da sincronização",
+  "cloudSyncHelpTitle": "Como a sincronização funciona · Por que às vezes trava",
+  "cloudSyncHelpModesTitle": "Três modos de sincronização",
+  "cloudSyncHelpModesBody": "• Incremental (automática, todo dia): depois que você adiciona ou edita um lançamento, só essa alteração é enviada/baixada automaticamente — rápido, sem ação manual. É o que roda o tempo todo.\n• Envio completo: na primeira vez que você ativa a sincronização em nuvem, ou quando a nuvem ainda não tem dados deste livro, todos os dados locais são enviados de uma vez.\n• Download completo: em um novo dispositivo, após reinstalar, ou quando o local está vazio, todos os dados são baixados da nuvem.",
+  "cloudSyncHelpWhenFullTitle": "Quando ocorre uma sincronização completa?",
+  "cloudSyncHelpWhenFullBody": "Uma sincronização completa só acontece automaticamente quando um dos lados está vazio (primeira ativação da sincronização em nuvem / novo dispositivo / reinstalação / após apagar dados locais ou da nuvem). Enquanto os dois lados tiverem dados, a sincronização continua incremental e nunca reinicia sozinha. Para forçar uma nova sincronização completa, você precisa apagar antes os dados do lado correspondente.",
+  "cloudSyncHelpStuckTitle": "Por que a sincronização às vezes trava",
+  "cloudSyncHelpStuckBody": "• O envio/download completo não é retomável: se a rede cair ou o app for encerrado em segundo plano, ele recomeça do zero em vez de continuar. Para grandes volumes de dados, use uma rede estável (Wi-Fi recomendado) e deixe terminar sem trocar de app.\n• A sincronização incremental é retomável e não é afetada no uso do dia a dia.",
+  "cloudSyncHelpTroubleshootTitle": "Solução de problemas",
+  "cloudSyncHelpTroubleshootBody": "• Primeiro, puxe para baixo nesta página para rodar uma Verificação Profunda e comparar local com nuvem.\n• Ainda travado? Abra a Central de Logs para ver os logs de sincronização (incluindo motivos de falha) e reportar.",
+  "cloudSyncHelpOpenLogCenter": "Abrir Central de Logs",
+  "syncHealthCheckFailed": "Falha na verificação: {msg}",
+  "@syncHealthCheckFailed": {
+    "placeholders": {
+      "msg": {
+        "type": "String"
+      }
+    }
+  },
+  "syncHealthHasDiff": "Diferença detectada; sincronizado automaticamente",
+  "syncHealthInSync": "Local corresponde à nuvem",
+  "syncHealthGroupCurrentLedger": "Livro atual",
+  "syncHealthGroupAll": "Todos os livros",
+  "syncHealthRowTx": "Transações",
+  "syncHealthRowAttachment": "Anexos",
+  "syncHealthRowCategoryIcon": "Ícones de categoria",
+  "syncHealthRowBudget": "Orçamentos",
+  "syncHealthRowAccount": "Contas",
+  "syncHealthRowCategory": "Categorias",
+  "syncHealthRowTag": "Tags",
+  "syncHealthRowUnpushed": "Envios pendentes",
+  "syncHealthValue": "Local {local} · Nuvem {remote}",
+  "@syncHealthValue": {
+    "placeholders": {
+      "local": {
+        "type": "int"
+      },
+      "remote": {
+        "type": "int"
+      }
+    }
+  },
+  "syncHealthValueRemoteMissing": "Local {local} · Nuvem —",
+  "@syncHealthValueRemoteMissing": {
+    "placeholders": {
+      "local": {
+        "type": "int"
+      }
+    }
+  },
+  "twofaChallengeTitle": "Autenticação em duas etapas",
+  "twofaMethodTotp": "Código",
+  "twofaMethodRecovery": "Código de recuperação",
+  "twofaTotpHint": "Digite o código de 6 dígitos do seu app autenticador (Google Authenticator / 1Password / Authy / etc.).",
+  "twofaRecoveryHint": "Digite um código de recuperação salvo ao ativar a 2FA (ex.: abcd-efgh). Cada código funciona uma única vez.",
+  "twofaTotpInputPlaceholder": "Código de 6 dígitos",
+  "twofaRecoveryInputPlaceholder": "Código de recuperação",
+  "twofaCountdown": "Tempo restante {time}",
+  "@twofaCountdown": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "twofaVerifyButton": "Verificar",
+  "twofaStatusTitle": "Autenticação em duas etapas",
+  "twofaStatusEnabled": "Ativada ✓",
+  "twofaStatusDisabled": "Não ativada",
+  "twofaStatusEnabledAt": "Ativada em {date}",
+  "@twofaStatusEnabledAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "twofaStatusManageHint": "Gerencie pelo app Web (ativar / desativar / gerar novos códigos de recuperação)",
+  "twofaStatusOpenWeb": "Ativar no app Web →",
+  "sharedRoleOwner": "Proprietário",
+  "sharedRoleEditor": "Editor",
+  "sharedRoleViewer": "Visualizador",
+  "commonCopied": "Copiado",
+  "commonRemove": "Remover",
+  "sharedJoinPageTitle": "Entrar em livro compartilhado",
+  "sharedJoinPageSubtitle": "Digite um código de convite ou toque em um link compartilhado",
+  "sharedJoinEnterCode": "Digite o código de convite",
+  "sharedJoinEnterCodeHint": "6 letras maiúsculas / dígitos. Você também pode tocar em um link de convite para pular esta etapa.",
+  "sharedJoinPreviewButton": "Verificar código",
+  "sharedJoinAcceptButton": "Entrar",
+  "sharedJoinInvitedBy": "{name} convidou você para entrar",
+  "@sharedJoinInvitedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedJoinRoleLine": "Papel: {role}",
+  "@sharedJoinRoleLine": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedJoinExpiresInMinutes": "Expira em {n} min",
+  "@sharedJoinExpiresInMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sharedJoinExpiresInHours": "Expira em {n}h",
+  "@sharedJoinExpiresInHours": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sharedJoinExpiresInDays": "Expira em {n}d",
+  "@sharedJoinExpiresInDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sharedJoinSuccess": "Entrou em \"{name}\"",
+  "@sharedJoinSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedJoinCodeFormatError": "O código de convite deve ter 6 letras/dígitos.",
+  "sharedJoinInvalidOrExpired": "O código de convite é inválido ou expirou. Peça um novo a quem convidou.",
+  "sharedJoinAlreadyMember": "Você já é membro deste livro.",
+  "sharedJoinMemberLimit": "Este livro atingiu o limite de membros. Peça ao proprietário.",
+  "sharedInvitePageTitle": "Convidar novo membro",
+  "sharedInviteFormRole": "Papel",
+  "sharedInviteFormExpiry": "Válido por",
+  "sharedInviteExpiryHours": "{n} h",
+  "@sharedInviteExpiryHours": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sharedInviteExpiryDays": "{n} dia",
+  "@sharedInviteExpiryDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sharedInviteGenerate": "Gerar código de convite",
+  "sharedInviteGenerateAnother": "Gerar outro código",
+  "sharedInviteCopyCode": "Copiar código",
+  "sharedInviteCopyLink": "Copiar link",
+  "sharedInviteShareLink": "Compartilhar link",
+  "sharedInviteExpiresAt": "Expira em {dt}",
+  "@sharedInviteExpiresAt": {
+    "placeholders": {
+      "dt": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedInviteWarning": "⚠️ Não publique códigos de convite em grupos públicos / redes sociais. Qualquer pessoa com o código pode entrar. Revogue e gere outro em Membros se ele vazar.",
+  "sharedInviteInstruction": "Envie o código ou o link curto para a outra pessoa. Depois de instalar o BeeCount, ela pode tocar no link ou digitar o código em \"Eu → Entrar em livro compartilhado\".",
+  "sharedInviteShareText": "Estou te convidando para o livro compartilhado \"{ledger}\" no BeeCount.\n\nCódigo: {code}\nLink: {url}\n\nToque no link, ou abra o BeeCount → Eu → Entrar em livro compartilhado e digite este código.",
+  "@sharedInviteShareText": {
+    "placeholders": {
+      "ledger": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedMembersPageTitle": "Membros",
+  "sharedMembersYou": "você",
+  "sharedMembersInviteCta": "Convidar novo membro",
+  "sharedMembersLeaveCta": "Sair do livro",
+  "sharedMembersLeaveTitle": "Sair do livro",
+  "sharedMembersLeaveConfirm": "Depois de sair de \"{name}\" você não poderá mais acessar suas transações. Continuar?",
+  "@sharedMembersLeaveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedMembersLeaveDone": "Você saiu do livro",
+  "sharedMembersRemoveTitle": "Remover membro",
+  "sharedMembersRemoveCta": "Remover este membro",
+  "sharedMembersRemoveConfirm": "Remover {name}? A pessoa perderá o acesso a este livro imediatamente.",
+  "@sharedMembersRemoveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedMembersRemoved": "Membro removido",
+  "sharedMembersTransferTitle": "Transferir propriedade",
+  "sharedMembersTransferTo": "Transferir para este membro",
+  "sharedMembersTransferConfirm": "Transferir a propriedade para {name}? Você se tornará editor e não poderá mais convidar, renomear ou excluir o livro.",
+  "@sharedMembersTransferConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedMembersTransferConfirmCta": "Transferir",
+  "sharedMembersTransferDone": "Propriedade transferida",
+  "sharedTxRecordedBy": "registrado por {name}",
+  "@sharedTxRecordedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedTxCreatedBy": "Criado por {name}",
+  "@sharedTxCreatedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedTxEditedBy": "Editado pela última vez por {name}",
+  "@sharedTxEditedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedTxCreatedAndEditedBy": "Criado e editado por {name}",
+  "@sharedTxCreatedAndEditedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sharedRequiresCloudSync": "Ative a sincronização em nuvem primeiro",
+  "sharedMembersStatsTitle": "Saldos dos membros",
+  "sharedMembersStatsEmpty": "Ainda não há transações",
+  "sharedMembersStatsLoading": "Carregando…",
+  "sharedMembersStatsIncome": "Receita",
+  "sharedMembersStatsExpense": "Despesa",
+  "sharedMembersStatsTxCount": "{count} transações",
+  "@sharedMembersStatsTxCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maintenanceOrphanCleanupTitle": "Limpeza de dados",
+  "maintenanceOrphanCleanupSubtitle": "Detecte e limpe dados órfãos locais",
+  "maintenanceOrphanRescan": "Verificar novamente",
+  "maintenanceOrphanEmpty": "Os dados locais estão limpos, nenhum dado órfão encontrado",
+  "maintenanceOrphanGroupDb": "Órfãos no banco de dados",
+  "maintenanceOrphanGroupFile": "Órfãos de arquivo",
+  "maintenanceOrphanGroupSync": "Órfãos de estado de sincronização",
+  "maintenanceOrphanSummary": "{count} problema(s) encontrado(s)",
+  "@maintenanceOrphanSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maintenanceOrphanSummarySize": "Espaço recuperável ~ {size}",
+  "@maintenanceOrphanSummarySize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "maintenanceOrphanSelectAll": "Selecionar tudo",
+  "maintenanceOrphanDeselectAll": "Desmarcar tudo",
+  "maintenanceOrphanDeleteOne": "Excluir este",
+  "maintenanceOrphanSelectedHint": "{count} selecionado(s)",
+  "@maintenanceOrphanSelectedHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maintenanceOrphanCleanSelected": "Limpar selecionados",
+  "maintenanceOrphanConfirmTitle": "Confirmar limpeza",
+  "maintenanceOrphanConfirmDeleteOne": "Excluir \"{title}\"? Isso não pode ser desfeito.",
+  "@maintenanceOrphanConfirmDeleteOne": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "maintenanceOrphanConfirmDeleteBatch": "Excluir os {count} itens selecionados? Isso não pode ser desfeito.",
+  "@maintenanceOrphanConfirmDeleteBatch": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maintenanceOrphanCleanSuccess": "{count} item(ns) limpo(s)",
+  "@maintenanceOrphanCleanSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "maintenanceOrphanCleanPartial": "{ok} item(ns) limpo(s), {fail} falharam",
+  "@maintenanceOrphanCleanPartial": {
+    "placeholders": {
+      "ok": {
+        "type": "int"
+      },
+      "fail": {
+        "type": "int"
+      }
+    }
+  },
+  "syncProgressTitle": "Sincronizando",
+  "syncProgressCount": "{applied} / {total}",
+  "@syncProgressCount": {
+    "placeholders": {
+      "applied": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "exchangeRatePageTitle": "Taxas de câmbio",
+  "exchangeRateEntrySubtitle": "Taxas obtidas automaticamente, com ajuste manual",
+  "baseCurrencyLabel": "Moeda principal",
+  "rateSourceAuto": "Automática",
+  "rateSourceManual": "Manual",
+  "rateUpdatedAt": "Atualizado em {date}",
+  "@rateUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "rateNotFetched": "Não obtida",
+  "rateTapToSet": "Toque para definir manualmente",
+  "rateEditTitle": "Editar taxa",
+  "rateInverseHint": "Inverso: 1 {base} ≈ {rate} {quote}",
+  "@rateInverseHint": {
+    "placeholders": {
+      "base": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      },
+      "quote": {
+        "type": "String"
+      }
+    }
+  },
+  "rateResetToAuto": "Voltar ao automático",
+  "rateRefreshSuccess": "Taxas atualizadas",
+  "rateRefreshFailed": "Falha ao obter, você pode definir as taxas manualmente",
+  "ratesEmptyHint": "As taxas aparecem aqui quando suas contas usam moedas diferentes",
+  "rateDisclaimer": "Fonte: dados abertos de câmbio, atualizados diariamente. A conversão é apenas para referência e pode diferir das taxas do banco.",
+  "convertedNetWorth": "Patrimônio líquido (em {currency})",
+  "@convertedNetWorth": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "convertedFootnote": "Convertido com as taxas de {date}, toque para gerenciar",
+  "@convertedFootnote": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "convertedPartialWarning": "{currencies} não convertidas, toque para definir as taxas",
+  "@convertedPartialWarning": {
+    "placeholders": {
+      "currencies": {
+        "type": "String"
+      }
+    }
+  },
+  "unconvertedBadge": "Não convertida",
+  "commonDetail": "Detalhe",
+  "conversionDetailTitle": "Detalhes da conversão",
+  "assetConversionToggle": "Converter para a moeda principal",
+  "rateManualApplied": "{count} taxas manuais aplicadas",
+  "@rateManualApplied": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "netWorthTrendTitle": "Tendência do patrimônio líquido",
+  "netWorthTrend3M": "3M",
+  "netWorthTrend6M": "6M",
+  "netWorthTrend12M": "12M",
+  "netWorthTrendAll": "Tudo",
+  "netWorthTrendLineNet": "Patrimônio líquido",
+  "netWorthTrendLineAssets": "Ativos totais",
+  "netWorthTrendLineLiabilities": "Passivos totais",
+  "netWorthTrendMultiCurrencyNote": "O patrimônio líquido histórico é a soma bruta de cada moeda, sem conversão",
+  "txFlagExcludeFromStats": "Excluir de receitas/despesas",
+  "txFlagExcludeFromBudget": "Excluir do orçamento",
+  "txFlagMoreOptions": "Mais opções",
+  "txFlagDialogTitle": "Sinalizadores da transação",
+  "txFlagExcludeFromStatsHint": "Excluído das estatísticas, mas ainda conta para o saldo",
+  "txFlagExcludeFromBudgetHint": "Não conta no seu orçamento",
+  "txFlagExcludedTag": "Excluído",
+  "txFlagBudgetExcludedTag": "Sem orçamento"
+}
