@@ -10,7 +10,6 @@ import '../../utils/category_utils.dart';
 import '../../l10n/app_localizations.dart';
 import '../../utils/transaction_edit_utils.dart';
 import '../../utils/ui_scale_extensions.dart';
-import '../../providers/database_providers.dart';
 import '../../widgets/category_icon.dart';
 import 'category_detail_page.dart';
 
