@@ -1,5 +1,5 @@
 {
-  "@@locale": "pt_BR",
+  "@@locale": "pt",
   "aiConsentTitle": "Antes de ativar os recursos de IA",
   "aiConsentBody": "Os recursos de IA precisam enviar dados relacionados ao provedor de IA terceirizado que você configurar:\n\n• Para quem vai: por padrão, Zhipu GLM (open.bigmodel.cn, operado pela Zhipu); se você configurar outro serviço de IA de terceiros, os dados vão para o provedor informado.\n• O que é enviado: o conteúdo que você usa ativamente para reconhecimento/chat — imagens de recibos, gravações de voz, texto digitado, além dos nomes de categorias, nomes de contas e registros de transações relevantes necessários para concluir o reconhecimento/análise.\n• Finalidade: apenas para reconhecimento de contas, lançamentos e conversas iniciadas por você; o BeeCount em si não coleta nem armazena esses dados.\n\nOs dados são processados por esse provedor terceirizado de acordo com sua própria política de privacidade. Ao ativar, você concorda com o compartilhamento de dados acima.",
   "aiConsentAgree": "Concordar e ativar",
